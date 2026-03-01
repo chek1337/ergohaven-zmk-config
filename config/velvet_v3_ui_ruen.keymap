@@ -141,10 +141,10 @@
 
         en {
             bindings = <
-&kp ESC    &kp Q              &kp W              &kp E                &kp R           &kp T                                   &kp Y          &kp U           &kp I                 &kp O               &kp P                  &kp BSPC
-&kp LSHFT  &hmr_l LEFT_GUI A  &hmr_l LEFT_ALT S  &hmr_l LEFT_SHIFT D  &hmr_l LCTRL F  &kp G                                   &kp H          &hmr_r RCTRL J  &hmr_r RIGHT_SHIFT K  &hmr_r RIGHT_ALT L  &hmr_r RIGHT_GUI SEMI  &kp BSLH
-&kp LCTRL  &kp Z              &kp X              &kp C                &kp V           &kp B                                   &kp N          &kp M           &kp COMMA             &kp DOT             &kp SQT                &kp RSHFT
-                              &kp LALT           &kp LGUI             &kp TAB         &kp SPACE  &lt 2 ESCAPE    &lt 3 ENTER  &kp BACKSPACE  &none           &kp LBKT              &kp RBKT
+&kp ESC    &kp Q              &kp W              &kp E                &kp R           &kp T                                    &kp Y          &kp U           &kp I                 &kp O               &kp P                  &kp BSPC
+&kp LSHFT  &hmr_l LEFT_GUI A  &hmr_l LEFT_ALT S  &hmr_l LEFT_SHIFT D  &hmr_l LCTRL F  &kp G                                    &kp H          &hmr_r RCTRL J  &hmr_r RIGHT_SHIFT K  &hmr_r RIGHT_ALT L  &hmr_r RIGHT_GUI SEMI  &kp BSLH
+&kp LCTRL  &kp Z              &kp X              &kp C                &kp V           &kp B                                    &kp N          &kp M           &kp COMMA             &kp DOT             &kp SQT                &kp RSHFT
+                              &kp LALT           &kp LGUI             &kp TAB         &kp SPACE  &lt 2 ESCAPE    &lt 3 DELETE  &kp BACKSPACE  &none           &kp LBKT              &kp RBKT
             >;
 
             display-name = "Base";
