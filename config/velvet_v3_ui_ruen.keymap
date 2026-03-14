@@ -185,7 +185,7 @@
         sym_ru {
             display-name = "Symbols";
             bindings = <
-&en GRAVE           &en HASH          &en LESS_THAN  &en GREATER_THAN  &kp RU_DQT  &en SQT                     &en TILDE     &kp RU_SEMI   &en LEFT_BRACE  &kp RIGHT_BRACE  &en PIPE      &none
+&en GRAVE           &en HASH          &en LESS_THAN  &en GREATER_THAN  &kp RU_DQT  &en SQT                     &en TILDE     &kp RU_SEMI   &en LEFT_BRACE  &en RIGHT_BRACE  &en PIPE      &none
 &kp RU_CYRILLIC_IO  &kp EXCL          &kp RU_FSLH    &kp MINUS         &kp EQUAL   &en AMPS                    &kp UNDER     &kp RU_COLON  &kp LPAR        &kp RPAR         &kp RU_QMARK  &kp PRCNT
 &kp RU_NUMERO       &kp RU_BACKSLASH  &kp ASTERISK   &kp PLUS          &en CARET   &en DOLLAR                  &kp RU_COMMA  &kp RU_DOT    &en LBKT        &en RBKT         &en AT_SIGN   &none
                                       &none          &none             &none       &none       &mo 5    &none  &none         &none         &none           &none
