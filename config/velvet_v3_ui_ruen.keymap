@@ -173,10 +173,10 @@
 
         sym_en {
             bindings = <
-&none  &kp SQT    &kp LESS_THAN  &kp GREATER_THAN  &kp DQT    &none                  &kp AMPERSAND  &kp SEMI    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PRCNT    &none
-&none  &kp EXCL   &kp PLUS       &kp MINUS         &kp EQUAL  &none                  &kp PIPE       &kp COLON   &kp LPAR          &kp RPAR           &kp QMARK    &none
-&none  &kp CARET  &kp FSLH       &kp ASTRK         &none      &none                  &kp TILDE      &kp DOLLAR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT_SIGN  &none
-                  &none          &none             &none      &none  &mo 5    &none  &none          &none       &none             &none
+&kp GRAVE  &kp HASH  &kp LESS_THAN  &kp GREATER_THAN  &kp DQT    &kp SINGLE_QUOTE                  &kp TILDE  &kp SEMI   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE     &none
+&none      &kp EXCL  &kp FSLH       &kp MINUS         &kp EQUAL  &kp AMPERSAND                     &kp UNDER  &kp COLON  &kp LPAR          &kp RPAR           &kp QMARK    &kp PRCNT
+&none      &kp NUBS  &kp ASTRK      &kp PLUS          &kp CARET  &kp DOLLAR                        &kp COMMA  &kp DOT    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT_SIGN  &none
+                     &none          &none             &none      &none             &mo 5    &none  &none      &none      &none             &none
             >;
 
             display-name = "Symbols";
