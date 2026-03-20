@@ -85,14 +85,28 @@
             layers = <1 0>;
         };
 
-        ctrl_shift_v {
-            bindings = <&kp LC(LS(V))>;
+        ctrl_shift_v_ru {
+            bindings = <&en LS(LC(V))>;
             key-positions = <28 25>;
+            layers = <1>;
         };
 
-        ctrl_shift_c {
+        ctrl_shift_v_en {
+            bindings = <&kp LS(LC(V))>;
+            key-positions = <25 28>;
+            layers = <0>;
+        };
+
+        ctrl_shift_c_ru {
+            bindings = <&en LS(LC(C))>;
+            key-positions = <25 27>;
+            layers = <1>;
+        };
+
+        ctrl_shift_c_en {
             bindings = <&kp LS(LC(C))>;
             key-positions = <25 27>;
+            layers = <0>;
         };
     };
 
