@@ -78,6 +78,22 @@
             key-positions = <3 4>;
             layers = <0>;
         };
+
+        tmux_focus {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <16 15>;
+            layers = <1 0>;
+        };
+
+        ctrl_shift_v {
+            bindings = <&kp LC(LS(V))>;
+            key-positions = <28 25>;
+        };
+
+        ctrl_shift_c {
+            bindings = <&kp LS(LC(C))>;
+            key-positions = <25 27>;
+        };
     };
 
     macros {
