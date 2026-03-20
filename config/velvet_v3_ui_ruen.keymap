@@ -75,13 +75,13 @@
 
         cmbru {
             bindings = <&layer_ru>;
-            key-positions = <4 39>;
+            key-positions = <4 3>;
             layers = <0>;
         };
 
         tmux_focus {
             bindings = <&kp LC(SPACE)>;
-            key-positions = <2 3>;
+            key-positions = <3 39>;
             layers = <1 0>;
         };
 
