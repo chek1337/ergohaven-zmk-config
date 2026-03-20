@@ -81,7 +81,7 @@
 
         tmux_focus {
             bindings = <&kp LC(SPACE)>;
-            key-positions = <16 15>;
+            key-positions = <2 3>;
             layers = <1 0>;
         };
 
