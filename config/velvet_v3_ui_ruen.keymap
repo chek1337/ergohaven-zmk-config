@@ -273,10 +273,10 @@
 
         additional_nav {
             bindings = <
-&none  &kp N9  &kp N8  &kp N7  &kp N6  &kp N5                  &caps_word     &kp HOME       &kp END       &none     &none          &none
-&none  &kp N4  &kp N3  &kp N2  &kp N1  &kp N0                  &kp PAGE_UP    &kp ENTER      &kp RC(BSPC)  &kp BSPC  &kp ESCAPE     &none
-&none  &none   &none   &none   &none   &none                   &kp PAGE_DOWN  &kp RS(ENTER)  &kp RC(DEL)   &kp DEL   &kp RIGHT_GUI  &none
-               &none   &none   &none   &none   &none    &none  &none          &none          &none         &none
+&none  &kp N9  &kp N8  &kp N7    &kp N6   &kp N5                  &caps_word   &kp RS(ENTER)  &kp RC(DELETE)  &kp DELETE  &none       &none
+&none  &kp N4  &kp N3  &kp N2    &kp N1   &kp N0                  &kp PAGE_UP  &kp ENTER      &kp RC(BSPC)    &kp BSPC    &kp ESCAPE  &none
+&none  &none   &none   &kp HOME  &kp END  &none                   &kp COMMA    &kp DOT        &none           &none       &none       &none
+               &none   &none     &none    &none   &none    &none  &none        &none          &none           &none
             >;
         };
 
