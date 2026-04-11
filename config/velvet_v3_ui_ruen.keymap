@@ -56,6 +56,16 @@
             hold-trigger-key-positions = <0 5 17 29 28 37 36 27 26 25 24 12 13 14 15 16 4 3 2 1 40 38 39>;
         };
 
+        skq: skq {
+            compatible = "zmk,behavior-sticky-key";
+            label = "SKQ";
+            bindings = <&kp>;
+            #binding-cells = <1>;
+            release-after-ms = <1000>;
+            quick-release;
+            ignore-modifiers;
+        };
+
         zip_auto_mouse: zip_auto_mouse {
             compatible = "zmk,input-processor-temp-layer";
             #input-processor-cells = <2>;
@@ -115,7 +125,7 @@
         };
 
         first_capital_letter {
-            bindings = <&sk RIGHT_SHIFT>;
+            bindings = <&skq RIGHT_SHIFT>;
             key-positions = <19 20>;
         };
     };
