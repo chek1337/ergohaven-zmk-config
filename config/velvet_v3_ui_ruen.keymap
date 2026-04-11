@@ -113,6 +113,11 @@
             bindings = <&kp LA(TAB)>;
             key-positions = <14 38>;
         };
+
+        first_capital_letter {
+            bindings = <&sk RIGHT_SHIFT>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
