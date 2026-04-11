@@ -128,6 +128,16 @@
             bindings = <&skq RIGHT_SHIFT>;
             key-positions = <19 20>;
         };
+
+        capslock_one_word {
+            bindings = <&caps_word>;
+            key-positions = <19 21>;
+        };
+
+        caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <19 22>;
+        };
     };
 
     macros {
