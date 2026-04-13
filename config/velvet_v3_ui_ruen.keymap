@@ -126,7 +126,7 @@
 
         first_capital_letter {
             bindings = <&skq RIGHT_SHIFT>;
-            key-positions = <19 20>;
+            key-positions = <39 42>;
         };
 
         capslock_one_word {
