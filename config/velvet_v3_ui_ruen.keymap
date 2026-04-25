@@ -143,6 +143,18 @@
             bindings = <&kp LC(W)>;
             key-positions = <15 39>;
         };
+
+        russian_ha {
+            bindings = <&kp RU_CYRILLIC_HA>;
+            key-positions = <8 7>;
+            layers = <1>;
+        };
+
+        russian_tverd_znak {
+            bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
+            key-positions = <9 8>;
+            layers = <1>;
+        };
     };
 
     macros {
