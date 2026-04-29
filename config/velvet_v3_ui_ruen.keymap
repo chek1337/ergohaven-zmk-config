@@ -218,10 +218,10 @@
 
         en {
             bindings = <
-&kp ESC    &kp Q              &kp W              &kp E                &kp R           &kp T                      &kp Y  &kp U           &kp I                 &kp O               &none               &kp F13
-&kp LSHFT  &hmr_l LEFT_GUI A  &hmr_l LEFT_ALT S  &hmr_l LEFT_SHIFT D  &hmr_l LCTRL F  &kp G                      &kp H  &hmr_r RCTRL J  &hmr_r RIGHT_SHIFT K  &hmr_r RIGHT_ALT L  &hmr_r RIGHT_GUI P  &none
-&kp LCTRL  &kp Z              &kp X              &kp C                &kp V           &kp B                      &kp N  &kp M           &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &none               &none
-                              &kp LALT           &kp LGUI             &kp TAB         &kp SPACE  &mo 2    &mo 3  &mo 9  &none           &none                 &none
+&none  &kp Q              &kp W              &kp E                &kp R           &kp T                      &kp Y  &kp U           &kp I                 &kp O               &none               &kp F13
+&none  &hmr_l LEFT_GUI A  &hmr_l LEFT_ALT S  &hmr_l LEFT_SHIFT D  &hmr_l LCTRL F  &kp G                      &kp H  &hmr_r RCTRL J  &hmr_r RIGHT_SHIFT K  &hmr_r RIGHT_ALT L  &hmr_r RIGHT_GUI P  &none
+&none  &kp Z              &kp X              &kp C                &kp V           &kp B                      &kp N  &kp M           &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &none               &none
+                          &kp LALT           &kp LGUI             &kp TAB         &kp SPACE  &mo 2    &mo 3  &mo 9  &none           &none                 &none
             >;
 
             display-name = "Base";
@@ -239,10 +239,10 @@
 
         nav {
             bindings = <
-&none  &none     &none     &kp END       &kp HOME     &caps_word                  &none     &none     &none   &none      &none  &none
-&none  &kp ESC   &kp BSPC  &kp LC(BSPC)  &kp ENTER    &kp PG_UP                   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none
-&none  &kp LGUI  &kp DEL   &kp LC(DEL)   &kp LS(RET)  &kp PG_DN                   &none     &none     &none   &none      &none  &none
-                 &none     &none         &none        &none       &none    &mo 5  &none     &none     &none   &none
+&none  &none  &none  &none  &none      &caps_word                  &none     &none     &none   &none      &none  &none
+&none  &none  &none  &none  &kp ENTER  &none                       &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none
+&none  &none  &none  &none  &none      &none                       &none     &none     &none   &none      &none  &none
+              &none  &none  &none      &none       &none    &mo 5  &none     &none     &none   &none
             >;
 
             display-name = "Nav";
