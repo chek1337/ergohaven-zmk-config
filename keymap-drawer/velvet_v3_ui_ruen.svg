@@ -1,4 +1,4 @@
-<svg width="960" height="4124" viewBox="0 0 960 4124" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="960" height="4604" viewBox="0 0 960 4604" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
 <svg id="mdi:apple-keyboard-caps">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-caps" viewBox="0 0 24 24"><path d="M15,14V8H17.17L12,2.83L6.83,8H9V14H15M12,0L22,10H17V16H7V10H2L12,0M7,18H17V24H7V18M15,20H9V22H15V20Z" /></svg>
@@ -264,8 +264,8 @@ path.combo {
 }
 </style>
 <g transform="translate(0, 0)" class="layer-En">
-<text x="0" y="0" class="label" id="En">En</text>
-<g transform="translate(0, 29)">
+<text x="0" y="20" class="label" id="En">En</text>
+<g transform="translate(0, 69)">
 <g transform="translate(32, 56)" class="key ghost keypos-0">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key ghost"/>
 </g>
@@ -503,9 +503,9 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 398)" class="layer-Ru">
-<text x="0" y="0" class="label" id="Ru">Ru</text>
-<g transform="translate(0, 29)">
+<g transform="translate(0, 438)" class="layer-Ru">
+<text x="0" y="20" class="label" id="Ru">Ru</text>
+<g transform="translate(0, 69)">
 <g transform="translate(32, 56)" class="key ghost keypos-0">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key ghost"/>
 </g>
@@ -747,9 +747,9 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 797)" class="layer-SymEn">
-<text x="0" y="0" class="label" id="SymEn">SymEn</text>
-<g transform="translate(0, 0)">
+<g transform="translate(0, 877)" class="layer-SymEn">
+<text x="0" y="20" class="label" id="SymEn">SymEn</text>
+<g transform="translate(0, 40)">
 <g transform="translate(32, 56)" class="key ghost keypos-0">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key ghost"/>
 </g>
@@ -925,9 +925,9 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 1167)" class="layer-SymRu">
-<text x="0" y="0" class="label" id="SymRu">SymRu</text>
-<g transform="translate(0, 0)">
+<g transform="translate(0, 1287)" class="layer-SymRu">
+<text x="0" y="20" class="label" id="SymRu">SymRu</text>
+<g transform="translate(0, 40)">
 <g transform="translate(32, 56)" class="key ghost keypos-0">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key ghost"/>
 </g>
@@ -1119,9 +1119,9 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 1536)" class="layer-NumNavEn">
-<text x="0" y="0" class="label" id="NumNavEn">NumNavEn</text>
-<g transform="translate(0, 0)">
+<g transform="translate(0, 1696)" class="layer-NumNavEn">
+<text x="0" y="20" class="label" id="NumNavEn">NumNavEn</text>
+<g transform="translate(0, 40)">
 <g transform="translate(32, 56)" class="key ghost keypos-0">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key ghost"/>
 </g>
@@ -1290,9 +1290,9 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 1906)" class="layer-NumNavRu">
-<text x="0" y="0" class="label" id="NumNavRu">NumNavRu</text>
-<g transform="translate(0, 0)">
+<g transform="translate(0, 2106)" class="layer-NumNavRu">
+<text x="0" y="20" class="label" id="NumNavRu">NumNavRu</text>
+<g transform="translate(0, 40)">
 <g transform="translate(32, 56)" class="key ghost keypos-0">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key ghost"/>
 </g>
@@ -1463,9 +1463,9 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 2276)" class="layer-ArrowsFs">
-<text x="0" y="0" class="label" id="ArrowsFs">ArrowsFs</text>
-<g transform="translate(0, 0)">
+<g transform="translate(0, 2516)" class="layer-ArrowsFs">
+<text x="0" y="20" class="label" id="ArrowsFs">ArrowsFs</text>
+<g transform="translate(0, 40)">
 <g transform="translate(32, 56)" class="key ghost keypos-0">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key ghost"/>
 </g>
@@ -1624,9 +1624,9 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 2645)" class="layer-Control">
-<text x="0" y="0" class="label" id="Control">Control</text>
-<g transform="translate(0, 0)">
+<g transform="translate(0, 2925)" class="layer-Control">
+<text x="0" y="20" class="label" id="Control">Control</text>
+<g transform="translate(0, 40)">
 <g transform="translate(32, 56)" class="key keypos-0">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:progress-download"/>
@@ -1793,9 +1793,9 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 3015)" class="layer-Mouse">
-<text x="0" y="0" class="label" id="Mouse">Mouse</text>
-<g transform="translate(0, 0)">
+<g transform="translate(0, 3335)" class="layer-Mouse">
+<text x="0" y="20" class="label" id="Mouse">Mouse</text>
+<g transform="translate(0, 40)">
 <g transform="translate(32, 56)" class="key ghost keypos-0">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key ghost"/>
 </g>
@@ -1950,9 +1950,9 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 3385)" class="layer-Scroll">
-<text x="0" y="0" class="label" id="Scroll">Scroll</text>
-<g transform="translate(0, 0)">
+<g transform="translate(0, 3745)" class="layer-Scroll">
+<text x="0" y="20" class="label" id="Scroll">Scroll</text>
+<g transform="translate(0, 40)">
 <g transform="translate(32, 56)" class="key ghost keypos-0">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key ghost"/>
 </g>
@@ -2099,9 +2099,9 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 3754)" class="layer-Sniper">
-<text x="0" y="0" class="label" id="Sniper">Sniper</text>
-<g transform="translate(0, 0)">
+<g transform="translate(0, 4154)" class="layer-Sniper">
+<text x="0" y="20" class="label" id="Sniper">Sniper</text>
+<g transform="translate(0, 40)">
 <g transform="translate(32, 56)" class="key ghost keypos-0">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key ghost"/>
 </g>
