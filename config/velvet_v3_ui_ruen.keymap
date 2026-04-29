@@ -233,7 +233,7 @@
 &none  &kp RU_CYRILLIC_SHORT_I         &kp RU_CYRILLIC_TSE               &kp RU_CYRILLIC_U                 &kp RU_CYRILLIC_KA          &kp RU_CYRILLIC_IE                  &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE         &kp RU_CYRILLIC_SHA                &kp RU_CYRILLIC_SHCHA            &kp RU_CYRILLIC_ZE                &kp F13
 &none  &hmr_l LEFT_GUI RU_CYRILLIC_EF  &hmr_l LEFT_ALT RU_CYRILLIC_YERU  &hmr_l LEFT_SHIFT RU_CYRILLIC_VE  &hmr_l LCTRL RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                  &kp RU_CYRILLIC_ER  &hmr_r RCTRL RU_CYRILLIC_O  &hmr_r RIGHT_SHIFT RU_CYRILLIC_EL  &hmr_r RIGHT_ALT RU_CYRILLIC_DE  &hmr_r RIGHT_GUI RU_CYRILLIC_ZHE  &none
 &none  &kp RU_CYRILLIC_YA              &kp RU_CYRILLIC_CHE               &kp RU_CYRILLIC_ES                &kp RU_CYRILLIC_EM          &kp RU_CYRILLIC_I                   &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN   &kp RU_CYRILLIC_BE                 &kp RU_CYRILLIC_YU               &kp RU_CYRILLIC_E                 &none
-                                       &kp LALT                          &kp LGUI                          &kp TAB                     &kp SPACE           &mo 2    &mo 4  &mo 9               &none                       &none                              &none
+                                       &none                             &none                             &kp TAB                     &kp SPACE           &mo 2    &mo 4  &mo 9               &none                       &none                              &none
             >;
         };
 
@@ -250,10 +250,10 @@
 
         sym_en {
             bindings = <
-&none  &kp HASH       &kp LESS_THAN  &kp GREATER_THAN  &kp DQT      &kp SINGLE_QUOTE                  &kp TILDE  &kp SEMI   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp AMPERSAND  &none
-&none  &kp EXCL       &kp FSLH       &kp MINUS         &kp EQUAL    &kp PIPE                          &kp UNDER  &kp COLON  &kp LPAR          &kp RPAR           &kp QMARK      &none
-&none  &kp BACKSLASH  &kp ASTRK      &kp PLUS          &kp AT_SIGN  &kp DOLLAR                        &kp COMMA  &kp DOT    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PRCNT      &none
-                      &none          &none             &kp CARET    &kp GRAVE         &mo 5    &none  &none      &none      &none             &none
+&none  &kp GRAVE      &kp LESS_THAN  &kp GREATER_THAN  &kp DQT        &kp SINGLE_QUOTE                  &kp TILDE  &kp AT     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp HASH   &none
+&none  &kp EXCL       &kp FSLH       &kp MINUS         &kp EQUAL      &kp PIPE                          &kp PRCNT  &kp UNDER  &kp LPAR          &kp RPAR           &kp QMARK  &none
+&none  &kp BACKSLASH  &kp ASTRK      &kp PLUS          &kp AMPERSAND  &kp DOLLAR                        &kp COMMA  &kp DOT    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CARET  &none
+                      &none          &none             &kp SEMI       &kp COLON         &mo 5    &none  &none      &none      &none             &none
             >;
 
             display-name = "Symbols";
@@ -262,10 +262,10 @@
         sym_ru {
             display-name = "Symbols";
             bindings = <
-&none  &en HASH          &en LESS_THAN  &en GREATER_THAN  &kp RU_DQT   &en SQT                     &en TILDE     &kp RU_SEMI   &en LEFT_BRACE  &en RIGHT_BRACE  &en AMPERSAND  &none
-&none  &kp EXCL          &kp RU_FSLH    &kp MINUS         &kp EQUAL    &en PIPE                    &kp UNDER     &kp RU_COLON  &kp LPAR        &kp RPAR         &kp RU_QMARK   &none
-&none  &kp RU_BACKSLASH  &kp ASTERISK   &kp PLUS          &en AT_SIGN  &en DOLLAR                  &kp RU_COMMA  &kp RU_DOT    &en LBKT        &en RBKT         &kp PRCNT      &none
-                         &none          &none             &kp CARET    &en GRAVE   &mo 5    &none  &none         &none         &none           &none
+&none  &en GRAVE         &en LESS_THAN  &en GREATER_THAN  &kp RU_DQT     &en SQT                     &en TILDE     &en AT      &en LEFT_BRACE  &en RIGHT_BRACE  &en HASH      &none
+&none  &kp EXCL          &kp RU_FSLH    &kp MINUS         &kp EQUAL      &en PIPE                    &kp PRCNT     &kp UNDER   &kp LPAR        &kp RPAR         &kp RU_QMARK  &none
+&none  &kp RU_BACKSLASH  &kp ASTERISK   &kp PLUS          &en AMPERSAND  &en DOLLAR                  &kp RU_COMMA  &kp RU_DOT  &en LBKT        &en RBKT         &kp CARET     &none
+                         &none          &none             &kp SEMI       &en COLON   &mo 5    &none  &none         &none       &none           &none
             >;
         };
 
