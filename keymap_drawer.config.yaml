@@ -39,8 +39,13 @@ parse_config:
     "&en COMMA":        {tap: ",", hold: en}
     "&en CARET":        {tap: "^", hold: en}
     "&en DOT":          {tap: ".", hold: en}
-    "&en LS(LC(V))":    {tap: "Sft+Ctl+V", hold: en}
-    "&en LS(LC(C))":    {tap: "Sft+Ctl+C", hold: en}
+    "&en LS(LC(V))":    {tap: $$mdi:content-paste$$, hold: en}
+    "&en LS(LC(C))":    {tap: $$mdi:content-copy$$, hold: en}
+    "&kp LS(LC(V))": $$mdi:content-paste$$
+    "&kp LS(LC(C))": $$mdi:content-copy$$
+    "&layer_en": {tap: $$mdi:translate$$, hold: en}
+    "&layer_ru": {tap: $$mdi:translate$$, hold: ru}
+    "&caps_word": $$mdi:caps-lock$$
     "&mkp MB1": $$mdi:mouse-left-click$$
     "&mkp MB2": $$mdi:mouse-right-click$$
     "&mkp MB3": $$mdi:mouse-scroll-wheel$$
