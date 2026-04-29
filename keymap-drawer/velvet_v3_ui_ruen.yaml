@@ -176,11 +176,11 @@ layers:
   - .
   - {t: '[', h: en}
   - {t: ']', h: en}
-  - ^
+  - '&en CARET'
   - ''
   - ''
   - ''
-  - {t: ;, s: ':'}
+  - '&en SEMICOLON'
   - {t: ':', h: en}
   - Control
   - {type: held}
