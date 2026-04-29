@@ -234,10 +234,10 @@
 
         sym_en {
             bindings = <
-&none  &kp GRAVE      &kp LESS_THAN  &kp GREATER_THAN  &kp DQT    &kp SINGLE_QUOTE                  &kp TILDE  &kp AMPERSAND  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp HASH   &none
-&none  &kp EXCL       &kp FSLH       &kp MINUS         &kp EQUAL  &kp PIPE                          &kp PRCNT  &kp UNDER      &kp LPAR        &kp RPAR         &kp QMARK  &none
-&none  &kp BACKSLASH  &kp ASTRK      &kp PLUS          &kp AT     &kp DOLLAR                        &kp COMMA  &kp DOT        &kp LBKT        &kp RBKT         &kp CARET  &none
-                      &none          &none             &kp SEMI   &kp COLON         &mo 7    &none  &none      &none          &none           &none
+&none  &kp GRAVE      &kp LESS_THAN  &kp GREATER_THAN  &kp DQT        &kp SQT                     &kp TILDE  &kp AMPERSAND  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp HASH   &none
+&none  &kp EXCL       &kp FSLH       &kp MINUS         &kp EQUAL      &kp PIPE                    &kp PRCNT  &kp UNDER      &kp LPAR        &kp RPAR         &kp QMARK  &none
+&none  &kp BACKSLASH  &kp ASTERISK   &kp PLUS          &kp AT         &kp DOLLAR                  &kp COMMA  &kp DOT        &kp LBKT        &kp RBKT         &kp CARET  &none
+                      &none          &none             &kp SEMICOLON  &kp COLON   &mo 7    &none  &none      &none          &none           &none
             >;
 
             display-name = "SymEn";
@@ -246,10 +246,10 @@
         sym_ru {
             display-name = "SymRu";
             bindings = <
-&none  &en GRAVE         &en LESS_THAN  &en GREATER_THAN  &kp RU_DQT  &en SQT                     &en TILDE     &en AMPERSAND  &en LEFT_BRACE  &en RIGHT_BRACE  &en HASH      &none
-&none  &kp EXCL          &kp RU_FSLH    &kp MINUS         &kp EQUAL   &en PIPE                    &kp PRCNT     &kp UNDER      &kp LPAR        &kp RPAR         &kp RU_QMARK  &none
-&none  &kp RU_BACKSLASH  &kp ASTERISK   &kp PLUS          &en AT      &en DOLLAR                  &kp RU_COMMA  &kp RU_DOT     &en LBKT        &en RBKT         &kp CARET     &none
-                         &none          &none             &kp SEMI    &en COLON   &mo 7    &none  &none         &none          &none           &none
+&none  &en GRAVE         &en LESS_THAN  &en GREATER_THAN  &kp RU_DQT     &en SQT                     &en TILDE     &en AMPERSAND  &en LEFT_BRACE  &en RIGHT_BRACE  &en HASH      &none
+&none  &kp EXCL          &kp RU_FSLH    &kp MINUS         &kp EQUAL      &en PIPE                    &kp PRCNT     &kp UNDER      &kp LPAR        &kp RPAR         &kp RU_QMARK  &none
+&none  &kp RU_BACKSLASH  &kp ASTERISK   &kp PLUS          &en AT         &en DOLLAR                  &kp RU_COMMA  &kp RU_DOT     &en LBKT        &en RBKT         &kp CARET     &none
+                         &none          &none             &kp SEMICOLON  &en COLON   &mo 7    &none  &none         &none          &none           &none
             >;
         };
 
