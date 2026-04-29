@@ -491,22 +491,22 @@ combos:
 - p: [28, 25]
   k: '&en LS(LC(V))'
   l: [Ru]
-  a: top
+  a: bottom
   o: 0.7
 - p: [25, 28]
   k: Sft+Ctl+V
   l: [En]
-  a: top
+  a: bottom
   o: 0.7
 - p: [25, 27]
   k: '&en LS(LC(C))'
   l: [Ru]
-  a: top
+  a: bottom
   o: 0.15
 - p: [25, 27]
   k: Sft+Ctl+C
   l: [En]
-  a: top
+  a: bottom
   o: 0.15
 - p: [14, 38]
   k: Alt+$$mdi:keyboard-tab$$
@@ -522,7 +522,7 @@ combos:
   k: $$mdi:apple-keyboard-caps$$
   l: [En, Ru]
   a: bottom
-  o: 0.1
+  o: 0.02
 - p: [15, 39]
   k: Ctl+W
   l: [En, Ru]
