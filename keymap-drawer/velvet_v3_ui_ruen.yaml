@@ -1,0 +1,416 @@
+layout: {zmk_keyboard: velvet_v3_ui_ruen}
+layers:
+  Base:
+  - ''
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - ''
+  - F13
+  - ''
+  - {t: A, h: LEFT GUI}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT SHIFT}
+  - {t: F, h: LCTRL}
+  - G
+  - H
+  - {t: J, h: RCTRL}
+  - {t: K, h: RIGHT SHIFT}
+  - {t: L, h: RIGHT ALT}
+  - {t: P, h: RIGHT GUI}
+  - ''
+  - ''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - LEFT BRACKET
+  - RIGHT BRACKET
+  - ''
+  - ''
+  - ''
+  - ''
+  - TAB
+  - SPACE
+  - Nav
+  - Symbols
+  - AddNav
+  - ''
+  - ''
+  - ''
+  Ru:
+  - ''
+  - Й
+  - Ц
+  - У
+  - К
+  - Е
+  - Н
+  - Г
+  - Ш
+  - Щ
+  - З
+  - F13
+  - ''
+  - {t: Ф, h: LEFT GUI}
+  - {t: Ы, h: LEFT ALT}
+  - {t: В, h: LEFT SHIFT}
+  - {t: А, h: LCTRL}
+  - П
+  - Р
+  - {t: О, h: RCTRL}
+  - {t: Л, h: RIGHT SHIFT}
+  - {t: Д, h: RIGHT ALT}
+  - {t: Ж, h: RIGHT GUI}
+  - ''
+  - ''
+  - Я
+  - Ч
+  - С
+  - М
+  - И
+  - Т
+  - Ь
+  - Б
+  - Ю
+  - Э
+  - ''
+  - ''
+  - ''
+  - TAB
+  - SPACE
+  - Nav
+  - Symbols
+  - AddNav
+  - ''
+  - ''
+  - ''
+  Symbols:
+  - ''
+  - '&en GRAVE'
+  - '&en LESS_THAN'
+  - '&en GREATER_THAN'
+  - '"'
+  - '&en SQT'
+  - '&en TILDE'
+  - '&en AT'
+  - '&en LEFT_BRACE'
+  - '&en RIGHT_BRACE'
+  - '&en HASH'
+  - ''
+  - ''
+  - '!'
+  - /
+  - '-'
+  - '='
+  - '&en PIPE'
+  - '%'
+  - _
+  - (
+  - )
+  - '?'
+  - ''
+  - ''
+  - \
+  - '*'
+  - +
+  - '&en AMPERSAND'
+  - '&en DOLLAR'
+  - ','
+  - .
+  - '&en LBKT'
+  - '&en RBKT'
+  - ^
+  - ''
+  - ''
+  - ''
+  - SEMI
+  - '&en COLON'
+  - Adjust
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  AddNav:
+  - ''
+  - '9'
+  - '8'
+  - '7'
+  - '6'
+  - '5'
+  - ''
+  - Sft+ENTER
+  - Ctl+DELETE
+  - DELETE
+  - PRINTSCREEN
+  - ''
+  - ''
+  - '4'
+  - '3'
+  - '2'
+  - '1'
+  - '0'
+  - ''
+  - ENTER
+  - Ctl+BSPC
+  - BSPC
+  - ESCAPE
+  - ''
+  - ''
+  - PAGE DOWN
+  - PG UP
+  - HOME
+  - END
+  - ''
+  - '&en COMMA'
+  - '&en DOT'
+  - Х
+  - Ъ
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: LEFT SHIFT, h: sticky}
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  Nav:
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F5
+  - F6
+  - F7
+  - F8
+  - ''
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - F9
+  - F10
+  - F11
+  - F12
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - Adjust
+  - ''
+  - ''
+  - ''
+  - ''
+  Adjust:
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - OUT BLE
+  - VOL DN
+  - MUTE
+  - VOL UP
+  - PRINTSCREEN
+  - '&studio_unlock'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - OUT USB
+  - PREV
+  - PLAY PAUSE
+  - NEXT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  Mouse: ['', '', '', '', '', '', '', '', '', '', '', '', '', Scroll, '&mkp MB3', '&mkp MB2', '&mkp MB1', '', '', '&mkp MB1', '&mkp MB2', '&mkp MB3', Scroll, '',
+    '', Sniper, '', '', '', '', '', '', '', '', Sniper, '', '', '', '', '', '', '', '', '', '', '']
+  Scroll:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - '&mkp MB1'
+  - ''
+  - ''
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  Sniper:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - '&mkp MB1'
+  - ''
+  - ''
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+combos:
+- p: [3, 4]
+  k: '&layer_en'
+  l: [Ru]
+- p: [4, 3]
+  k: '&layer_ru'
+  l: [Base]
+- p: [39, 16]
+  k: Ctl+SPACE
+  l: [Ru, Base]
+- p: [28, 25]
+  k: '&en LS(LC(V))'
+  l: [Ru]
+- p: [25, 28]
+  k: Sft+Ctl+V
+  l: [Base]
+- p: [25, 27]
+  k: '&en LS(LC(C))'
+  l: [Ru]
+- p: [25, 27]
+  k: Sft+Ctl+C
+  l: [Base]
+- p: [14, 38]
+  k: Alt+TAB
+- p: [19, 21]
+  k: '&caps_word'
+- p: [19, 22]
+  k: CAPSLOCK
+- p: [15, 39]
+  k: Ctl+W
+- p: [8, 7]
+  k: Х
+  l: [Ru]
+- p: [9, 8]
+  k: Ъ
+  l: [Ru]
