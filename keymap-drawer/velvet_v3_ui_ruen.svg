@@ -771,7 +771,7 @@ path.combo {
 </g>
 <g transform="translate(672, 40)" class="key keypos-7">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
-<text x="0" y="0" class="key tap">@</text>
+<text x="0" y="0" class="key tap">&amp;</text>
 </g>
 <g transform="translate(736, 32)" class="key keypos-8">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
@@ -851,7 +851,7 @@ path.combo {
 </g>
 <g transform="translate(288, 168)" class="key keypos-28">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
-<text x="0" y="0" class="key tap">&amp;</text>
+<text x="0" y="0" class="key tap">@</text>
 </g>
 <g transform="translate(352, 176)" class="key keypos-29">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
@@ -963,7 +963,7 @@ path.combo {
 <g transform="translate(672, 40)" class="key keypos-7">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em">&amp;en</tspan><tspan x="0" dy="1.0em">AT</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 62%">&amp;en</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">AMPERSA…</tspan>
 </text>
 </g>
 <g transform="translate(736, 32)" class="key keypos-8">
@@ -1053,7 +1053,7 @@ path.combo {
 <g transform="translate(288, 168)" class="key keypos-28">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 62%">&amp;en</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">AMPERSA…</tspan>
+<tspan x="0" dy="-0.5em">&amp;en</tspan><tspan x="0" dy="1.0em">AT</tspan>
 </text>
 </g>
 <g transform="translate(352, 176)" class="key keypos-29">
@@ -1244,23 +1244,23 @@ path.combo {
 </g>
 <g transform="translate(608, 176)" class="key keypos-30">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em">&amp;en</tspan><tspan x="0" dy="1.0em">COMMA</tspan>
-</text>
+<text x="0" y="0" class="key tap">,</text>
 </g>
 <g transform="translate(672, 168)" class="key keypos-31">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em">&amp;en</tspan><tspan x="0" dy="1.0em">DOT</tspan>
-</text>
+<text x="0" y="0" class="key tap">.</text>
 </g>
 <g transform="translate(736, 160)" class="key keypos-32">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
-<text x="0" y="0" class="key tap">Х</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 71%">LEFT</tspan><tspan x="0" dy="1.0em" style="font-size: 71%">BRACKET</tspan>
+</text>
 </g>
 <g transform="translate(800, 168)" class="key keypos-33">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
-<text x="0" y="0" class="key tap">Ъ</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 71%">RIGHT</tspan><tspan x="0" dy="1.0em" style="font-size: 71%">BRACKET</tspan>
+</text>
 </g>
 <g transform="translate(864, 184)" class="key keypos-34">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
