@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: velvet_v3_ui_ruen}
 layers:
-  Base:
+  En:
   - ''
   - Q
   - W
@@ -41,9 +41,9 @@ layers:
   - ''
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
-  - Nav
-  - Symbols
-  - AddNav
+  - ArrowsFs
+  - SymEn
+  - NumNavEn
   - ''
   - ''
   - ''
@@ -88,13 +88,60 @@ layers:
   - ''
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
-  - Nav
-  - Symbols
-  - AddNav
+  - ArrowsFs
+  - SymRu
+  - NumNavRu
   - ''
   - ''
   - ''
-  Symbols:
+  SymEn:
+  - ''
+  - '`'
+  - <
+  - '>'
+  - '"'
+  - SINGLE QUOTE
+  - '~'
+  - '@'
+  - '{'
+  - '}'
+  - '#'
+  - ''
+  - ''
+  - '!'
+  - /
+  - '-'
+  - '='
+  - '|'
+  - '%'
+  - _
+  - (
+  - )
+  - '?'
+  - ''
+  - ''
+  - \
+  - ASTRK
+  - +
+  - '&'
+  - $
+  - ','
+  - .
+  - LEFT BRACKET
+  - RIGHT BRACKET
+  - ^
+  - ''
+  - ''
+  - ''
+  - SEMI
+  - COLON
+  - Control
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  SymRu:
   - ''
   - '&en GRAVE'
   - '&en LESS_THAN'
@@ -135,13 +182,13 @@ layers:
   - ''
   - SEMI
   - '&en COLON'
-  - Adjust
+  - Control
   - {type: held}
   - ''
   - ''
   - ''
   - ''
-  AddNav:
+  NumNavEn:
   - ''
   - '9'
   - '8'
@@ -188,7 +235,54 @@ layers:
   - ''
   - ''
   - ''
-  Nav:
+  NumNavRu:
+  - ''
+  - '9'
+  - '8'
+  - '7'
+  - '6'
+  - '5'
+  - ''
+  - Sft+$$mdi:keyboard-return$$
+  - Ctl+$$mdi:backspace-reverse-outline$$
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:printer$$
+  - ''
+  - ''
+  - '4'
+  - '3'
+  - '2'
+  - '1'
+  - '0'
+  - ''
+  - $$mdi:keyboard-return$$
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-esc$$
+  - ''
+  - ''
+  - $$mdi:transfer-down$$
+  - $$mdi:transfer-up$$
+  - $$mdi:arrow-collapse-left$$
+  - $$mdi:arrow-collapse-right$$
+  - ''
+  - '&en COMMA'
+  - '&en DOT'
+  - Х
+  - Ъ
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  ArrowsFs:
   - ''
   - F1
   - F2
@@ -230,12 +324,12 @@ layers:
   - ''
   - ''
   - {type: held}
-  - Adjust
+  - Control
   - ''
   - ''
   - ''
   - ''
-  Adjust:
+  Control:
   - $$mdi:progress-download$$
   - ''
   - ''
@@ -386,12 +480,12 @@ combos:
   o: 0.2
 - p: [4, 3]
   k: '&layer_ru'
-  l: [Base]
+  l: [En]
   a: top
   o: 0.2
 - p: [39, 16]
   k: Ctl+$$mdi:keyboard-space$$
-  l: [Ru, Base]
+  l: [Ru, En]
   a: bottom
   o: 0.8
 - p: [28, 25]
@@ -401,7 +495,7 @@ combos:
   o: 0.3
 - p: [25, 28]
   k: Sft+Ctl+V
-  l: [Base]
+  l: [En]
   a: bottom
   o: 0.3
 - p: [25, 27]
@@ -411,26 +505,26 @@ combos:
   o: 0.5
 - p: [25, 27]
   k: Sft+Ctl+C
-  l: [Base]
+  l: [En]
   a: bottom
   o: 0.5
 - p: [14, 38]
   k: Alt+$$mdi:keyboard-tab$$
-  l: [Base, Ru]
+  l: [En, Ru]
   a: bottom
   o: 0.4
 - p: [19, 21]
   k: '&caps_word'
-  l: [Base, Ru]
+  l: [En, Ru]
   a: bottom
   o: 0.2
 - p: [19, 22]
   k: $$mdi:apple-keyboard-caps$$
-  l: [Base, Ru]
+  l: [En, Ru]
   a: bottom
   o: 0.5
 - p: [15, 39]
   k: Ctl+W
-  l: [Base, Ru]
+  l: [En, Ru]
   a: bottom
   o: 0.6
