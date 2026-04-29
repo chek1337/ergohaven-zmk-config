@@ -17,6 +17,7 @@ parse_config:
     ctrl_shift_c_en: {align: bottom, offset: 0.0}
 
   raw_binding_map:
+    "&none": {type: ghost}
     "&bootloader": {tap: $$mdi:progress-download$$}
     "&studio_unlock": {tap: $$mdi:lock-open$$}
     "&en GRAVE":        {tap: "`", hold: en}
@@ -33,6 +34,7 @@ parse_config:
     "&en DOLLAR":       {tap: "$", hold: en}
     "&en LBKT":         {tap: "[", hold: en}
     "&en RBKT":         {tap: "]", hold: en}
+    "&en SEMICOLON":    {tap: ";", hold: en}
     "&en COLON":        {tap: ":", hold: en}
     "&en COMMA":        {tap: ",", hold: en}
     "&en DOT":          {tap: ".", hold: en}
