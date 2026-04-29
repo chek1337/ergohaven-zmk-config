@@ -38,6 +38,9 @@ parse_config:
     "&en DOT":          {tap: ".", hold: en}
     "&en LS(LC(V))":    {tap: "Sft+Ctl+V", hold: en}
     "&en LS(LC(C))":    {tap: "Sft+Ctl+C", hold: en}
+    "&mkp MB1": $$mdi:mouse-left-click$$
+    "&mkp MB2": $$mdi:mouse-right-click$$
+    "&mkp MB3": $$mdi:mouse-scroll-wheel$$
 
   zmk_keycode_map:
     LSHIFT: $$mdi:apple-keyboard-shift$$
