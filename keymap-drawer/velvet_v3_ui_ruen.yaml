@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: velvet_v3_ui_ruen}
 layers:
   En:
-  - ''
+  - {type: ghost}
   - Q
   - W
   - E
@@ -11,9 +11,9 @@ layers:
   - U
   - I
   - O
-  - ''
+  - {type: ghost}
   - F13
-  - ''
+  - {type: ghost}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -24,8 +24,8 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: P, h: '$$mdi:apple-keyboard-command$$'}
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - Z
   - X
   - C
@@ -35,20 +35,20 @@ layers:
   - M
   - '['
   - ']'
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
   - ArrowsFs
   - SymEn
   - NumNavEn
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   Ru:
-  - ''
+  - {type: ghost}
   - Й
   - Ц
   - У
@@ -60,7 +60,7 @@ layers:
   - Щ
   - З
   - F13
-  - ''
+  - {type: ghost}
   - {t: Ф, h: '$$mdi:apple-keyboard-command$$'}
   - {t: Ы, h: '$$mdi:apple-keyboard-option$$'}
   - {t: В, h: '$$mdi:apple-keyboard-shift$$'}
@@ -71,8 +71,8 @@ layers:
   - {t: Л, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Д, h: '$$mdi:apple-keyboard-option$$'}
   - {t: Ж, h: '$$mdi:apple-keyboard-command$$'}
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - Я
   - Ч
   - С
@@ -83,19 +83,19 @@ layers:
   - Б
   - Ю
   - Э
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
   - ArrowsFs
   - SymRu
   - NumNavRu
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   SymEn:
-  - ''
+  - {type: ghost}
   - '`'
   - <
   - '>'
@@ -106,8 +106,8 @@ layers:
   - '{'
   - '}'
   - '#'
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - '!'
   - /
   - '-'
@@ -118,8 +118,8 @@ layers:
   - (
   - )
   - '?'
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - \
   - '*'
   - +
@@ -130,19 +130,19 @@ layers:
   - '['
   - ']'
   - ^
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - {t: ;, s: ':'}
   - ':'
   - Control
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   SymRu:
-  - ''
+  - {type: ghost}
   - {t: '`', h: en}
   - {t: <, h: en}
   - {t: '>', h: en}
@@ -153,8 +153,8 @@ layers:
   - {t: '{', h: en}
   - {t: '}', h: en}
   - {t: '#', h: en}
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - '!'
   - /
   - '-'
@@ -165,8 +165,8 @@ layers:
   - (
   - )
   - '?'
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - \
   - '*'
   - +
@@ -177,302 +177,346 @@ layers:
   - {t: '[', h: en}
   - {t: ']', h: en}
   - '&en CARET'
-  - ''
-  - ''
-  - ''
-  - '&en SEMICOLON'
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {t: ;, h: en}
   - {t: ':', h: en}
   - Control
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   NumNavEn:
-  - ''
+  - {type: ghost}
   - '9'
   - '8'
   - '7'
   - '6'
   - '5'
-  - ''
+  - {type: ghost}
   - Sft+$$mdi:keyboard-return$$
   - Ctl+$$mdi:backspace-reverse-outline$$
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:printer$$
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - '4'
   - '3'
   - '2'
   - '1'
   - '0'
-  - ''
+  - {type: ghost}
   - $$mdi:keyboard-return$$
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - $$mdi:transfer-down$$
   - $$mdi:transfer-up$$
   - $$mdi:arrow-collapse-left$$
   - $$mdi:arrow-collapse-right$$
-  - ''
+  - {type: ghost}
   - ','
   - .
   - '['
   - ']'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - {type: held}
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   NumNavRu:
-  - ''
+  - {type: ghost}
   - '9'
   - '8'
   - '7'
   - '6'
   - '5'
-  - ''
+  - {type: ghost}
   - Sft+$$mdi:keyboard-return$$
   - Ctl+$$mdi:backspace-reverse-outline$$
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:printer$$
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - '4'
   - '3'
   - '2'
   - '1'
   - '0'
-  - ''
+  - {type: ghost}
   - $$mdi:keyboard-return$$
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - $$mdi:transfer-down$$
   - $$mdi:transfer-up$$
   - $$mdi:arrow-collapse-left$$
   - $$mdi:arrow-collapse-right$$
-  - ''
+  - {type: ghost}
   - {t: ',', h: en}
   - {t: ., h: en}
   - Х
   - Ъ
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - {type: held}
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   ArrowsFs:
-  - ''
+  - {type: ghost}
   - F1
   - F2
   - F3
   - F4
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - F5
   - F6
   - F7
   - F8
-  - ''
+  - {type: ghost}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - F9
   - F10
   - F11
   - F12
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - {type: held}
   - Control
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   Control:
   - $$mdi:progress-download$$
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - {t: '$$mdi:bluetooth-connect$$', h: '0'}
   - {t: '$$mdi:bluetooth-connect$$', h: '1'}
   - {t: '$$mdi:bluetooth-connect$$', h: '2'}
   - {t: '$$mdi:bluetooth-connect$$', h: '3'}
   - {t: '$$mdi:bluetooth-connect$$', h: '4'}
   - $$mdi:bluetooth-off$$
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - OUT BLE
   - $$mdi:volume-low$$
   - $$mdi:volume-off$$
   - $$mdi:volume-high$$
   - $$mdi:printer$$
   - $$mdi:lock-open$$
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - OUT USB
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
   - $$mdi:skip-next$$
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - {type: held}
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  Mouse: ['', '', '', '', '', '', '', '', '', '', '', '', '', Scroll, '$$mdi:mouse-scroll-wheel$$', '$$mdi:mouse-right-click$$', '$$mdi:mouse-left-click$$', '', '',
-    '$$mdi:mouse-left-click$$', '$$mdi:mouse-right-click$$', '$$mdi:mouse-scroll-wheel$$', Scroll, '', '', Sniper, '', '', '', '', '', '', '', '', Sniper, '', '',
-    '', '', '', '', '', '', '', '', '']
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  Mouse:
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - Scroll
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click$$
+  - $$mdi:mouse-left-click$$
+  - {type: ghost}
+  - {type: ghost}
+  - $$mdi:mouse-left-click$$
+  - $$mdi:mouse-right-click$$
+  - $$mdi:mouse-scroll-wheel$$
+  - Scroll
+  - {type: ghost}
+  - {type: ghost}
+  - Sniper
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - Sniper
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   Scroll:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - {type: held}
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click$$
   - $$mdi:mouse-left-click$$
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - $$mdi:mouse-left-click$$
   - $$mdi:mouse-right-click$$
   - $$mdi:mouse-scroll-wheel$$
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   Sniper:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click$$
   - $$mdi:mouse-left-click$$
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - $$mdi:mouse-left-click$$
   - $$mdi:mouse-right-click$$
   - $$mdi:mouse-scroll-wheel$$
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
 combos:
 - p: [3, 4]
   k: '&layer_en'
