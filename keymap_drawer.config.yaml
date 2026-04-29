@@ -7,7 +7,7 @@ parse_config:
     cmben: {align: top, offset: 0.2}
     cmbru: {align: top, offset: 0.2}
     capslock_one_word: {align: top, offset: 0.2}
-    caps: {align: bottom, offset: 0.02}
+    caps: {align: bottom, offset: 0.00}
     window_mode_nvim: {align: bottom, offset: 0.55}
     alt_tab: {align: bottom, offset: 0.4}
     tmux_focus: {align: bottom, offset: 0.9}
