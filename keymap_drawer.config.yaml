@@ -127,6 +127,13 @@ draw_config:
         --color--material--blue-gray--800: rgb(55, 71, 79);
         --color--material--blue-gray--900: rgb(38, 50, 56);
 
+        --color--material--teal--50: rgb(224, 242, 241);
+        --color--material--teal--100: rgb(178, 223, 219);
+        --color--material--teal--200: rgb(128, 203, 196);
+        --color--material--teal--300: rgb(77, 182, 172);
+        --color--material--teal--400: rgb(38, 166, 154);
+        --color--material--teal--500: rgb(0, 150, 136);
+
         --color--bg: transparent;
         --color--text: var(--color--material--blue-gray--900);
 
@@ -216,6 +223,20 @@ draw_config:
     .keypos-36 .hold, .keypos-37 .hold, .keypos-38 .hold,
     .keypos-39 .hold, .keypos-40 .hold {
         translate: -22px 4px;
+    }
+
+    .keypos-16 .key,
+    .keypos-19 .key {
+        --color--key--bg: var(--color--material--teal--200);
+        --color--key--border: var(--color--material--teal--100);
+        --color--key--text--shifted: var(--color--key--text--tap);
+        --color--key--text--hold: var(--color--key--text--tap);
+    }
+
+    .keypos-38 .key, .keypos-39 .key, .keypos-40 .key,
+    .keypos-41 .key, .keypos-42 .key {
+        --color--key--bg: var(--color--material--blue-gray--100);
+        --color--key--border: var(--color--material--blue-gray--50);
     }
 
     .combo {
