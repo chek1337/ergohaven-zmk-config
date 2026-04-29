@@ -133,8 +133,8 @@ layers:
   - ''
   - ''
   - ''
-  - SEMICOLON
-  - COLON
+  - {t: ;, s: ':'}
+  - ':'
   - Control
   - {type: held}
   - ''
@@ -180,7 +180,7 @@ layers:
   - ''
   - ''
   - ''
-  - SEMICOLON
+  - {t: ;, s: ':'}
   - '&en COLON'
   - Control
   - {type: held}
@@ -487,26 +487,26 @@ combos:
   k: Ctl+$$mdi:keyboard-space$$
   l: [Ru, En]
   a: bottom
-  o: 0.8
+  o: 0.9
 - p: [28, 25]
   k: '&en LS(LC(V))'
   l: [Ru]
-  a: bottom
-  o: 0.3
+  a: top
+  o: 0.2
 - p: [25, 28]
   k: Sft+Ctl+V
   l: [En]
-  a: bottom
-  o: 0.3
+  a: top
+  o: 0.2
 - p: [25, 27]
   k: '&en LS(LC(C))'
   l: [Ru]
-  a: bottom
+  a: top
   o: 0.5
 - p: [25, 27]
   k: Sft+Ctl+C
   l: [En]
-  a: bottom
+  a: top
   o: 0.5
 - p: [14, 38]
   k: Alt+$$mdi:keyboard-tab$$
@@ -516,13 +516,13 @@ combos:
 - p: [19, 21]
   k: '&caps_word'
   l: [En, Ru]
-  a: bottom
+  a: top
   o: 0.2
 - p: [19, 22]
   k: $$mdi:apple-keyboard-caps$$
   l: [En, Ru]
   a: bottom
-  o: 0.5
+  o: 0.2
 - p: [15, 39]
   k: Ctl+W
   l: [En, Ru]
