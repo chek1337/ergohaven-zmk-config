@@ -117,23 +117,25 @@
 }
 
 svg.keymap {
-    --color--material--blue-gray--50: rgb(236, 239, 241);
-    --color--material--blue-gray--100: rgb(207, 216, 220);
-    --color--material--blue-gray--200: rgb(176, 190, 197);
-    --color--material--blue-gray--300: rgb(144, 164, 174);
-    --color--material--blue-gray--400: rgb(120, 144, 156);
-    --color--material--blue-gray--500: rgb(96, 125, 139);
-    --color--material--blue-gray--600: rgb(84, 110, 122);
-    --color--material--blue-gray--700: rgb(69, 90, 100);
-    --color--material--blue-gray--800: rgb(55, 71, 79);
-    --color--material--blue-gray--900: rgb(38, 50, 56);
+    /* GitHub Primer neutrals (canvas / border / fg) */
+    --color--material--blue-gray--50: #f6f8fa;
+    --color--material--blue-gray--100: #eaeef2;
+    --color--material--blue-gray--200: #d0d7de;
+    --color--material--blue-gray--300: #afb8c1;
+    --color--material--blue-gray--400: #656d76;
+    --color--material--blue-gray--500: #57606a;
+    --color--material--blue-gray--600: #424a53;
+    --color--material--blue-gray--700: #32383f;
+    --color--material--blue-gray--800: #24292f;
+    --color--material--blue-gray--900: #1f2328;
 
-    --color--material--teal--50: rgb(224, 242, 241);
-    --color--material--teal--100: rgb(178, 223, 219);
-    --color--material--teal--200: rgb(128, 203, 196);
-    --color--material--teal--300: rgb(77, 182, 172);
-    --color--material--teal--400: rgb(38, 166, 154);
-    --color--material--teal--500: rgb(0, 150, 136);
+    /* GitHub Primer accent blue (replaces teal accent for F/J) */
+    --color--material--teal--50: #ddf4ff;
+    --color--material--teal--100: #b6e3ff;
+    --color--material--teal--200: #80ccff;
+    --color--material--teal--300: #54aeff;
+    --color--material--teal--400: #218bff;
+    --color--material--teal--500: #0969da;
 
     --color--bg: transparent;
     --color--text: var(--color--material--blue-gray--900);
