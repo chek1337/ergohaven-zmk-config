@@ -176,7 +176,7 @@ layers:
   - .
   - {t: '[', h: en}
   - {t: ']', h: en}
-  - '&en CARET'
+  - {t: ^, h: en}
   - {type: ghost}
   - {type: ghost}
   - {type: ghost}
