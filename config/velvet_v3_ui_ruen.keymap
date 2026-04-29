@@ -253,8 +253,8 @@
             bindings = <
 &none  &en GRAVE         &en LESS_THAN  &en GREATER_THAN  &kp RU_DQT     &en SQT                     &en TILDE     &en AT      &en LEFT_BRACE  &en RIGHT_BRACE  &en HASH      &none
 &none  &kp EXCL          &kp RU_FSLH    &kp MINUS         &kp EQUAL      &en PIPE                    &kp PRCNT     &kp UNDER   &kp LPAR        &kp RPAR         &kp RU_QMARK  &none
-&none  &kp RU_BACKSLASH  &kp ASTERISK   &kp PLUS          &en AMPERSAND  &en DOLLAR                  &kp RU_COMMA  &kp RU_DOT  &en LBKT        &en RBKT         &kp CARET     &none
-                         &none          &none             &kp SEMI       &en COLON   &mo 7    &none  &none         &none       &none           &none
+&none  &kp RU_BACKSLASH  &kp ASTERISK   &kp PLUS          &en AMPERSAND  &en DOLLAR                  &kp RU_COMMA  &kp RU_DOT  &en LBKT        &en RBKT         &en CARET     &none
+                         &none          &none             &en SEMI       &en COLON   &mo 7    &none  &none         &none       &none           &none
             >;
         };
 
