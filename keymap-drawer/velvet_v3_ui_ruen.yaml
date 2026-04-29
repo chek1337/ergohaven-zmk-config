@@ -14,16 +14,16 @@ layers:
   - ''
   - F13
   - ''
-  - {t: A, h: LEFT GUI}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT SHIFT}
-  - {t: F, h: LCTRL}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - H
-  - {t: J, h: RCTRL}
-  - {t: K, h: RIGHT SHIFT}
-  - {t: L, h: RIGHT ALT}
-  - {t: P, h: RIGHT GUI}
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: P, h: '$$mdi:apple-keyboard-command$$'}
   - ''
   - ''
   - Z
@@ -39,8 +39,8 @@ layers:
   - ''
   - ''
   - ''
-  - TAB
-  - SPACE
+  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-space$$
   - Nav
   - Symbols
   - AddNav
@@ -61,16 +61,16 @@ layers:
   - З
   - F13
   - ''
-  - {t: Ф, h: LEFT GUI}
-  - {t: Ы, h: LEFT ALT}
-  - {t: В, h: LEFT SHIFT}
-  - {t: А, h: LCTRL}
+  - {t: Ф, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: Ы, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: В, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: А, h: '$$mdi:apple-keyboard-control$$'}
   - П
   - Р
-  - {t: О, h: RCTRL}
-  - {t: Л, h: RIGHT SHIFT}
-  - {t: Д, h: RIGHT ALT}
-  - {t: Ж, h: RIGHT GUI}
+  - {t: О, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: Л, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: Д, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: Ж, h: '$$mdi:apple-keyboard-command$$'}
   - ''
   - ''
   - Я
@@ -86,8 +86,8 @@ layers:
   - ''
   - ''
   - ''
-  - TAB
-  - SPACE
+  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-space$$
   - Nav
   - Symbols
   - AddNav
@@ -149,10 +149,10 @@ layers:
   - '6'
   - '5'
   - ''
-  - Sft+ENTER
-  - Ctl+DELETE
-  - DELETE
-  - PRINTSCREEN
+  - Sft+$$mdi:keyboard-return$$
+  - Ctl+$$mdi:backspace-reverse-outline$$
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:printer$$
   - ''
   - ''
   - '4'
@@ -161,16 +161,16 @@ layers:
   - '1'
   - '0'
   - ''
-  - ENTER
-  - Ctl+BSPC
-  - BSPC
-  - ESCAPE
+  - $$mdi:keyboard-return$$
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-esc$$
   - ''
   - ''
-  - PAGE DOWN
-  - PG UP
-  - HOME
-  - END
+  - $$mdi:transfer-down$$
+  - $$mdi:transfer-up$$
+  - $$mdi:arrow-collapse-left$$
+  - $$mdi:arrow-collapse-right$$
   - ''
   - '&en COMMA'
   - '&en DOT'
@@ -181,7 +181,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: LEFT SHIFT, h: sticky}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - ''
   - ''
   - {type: held}
@@ -207,10 +207,10 @@ layers:
   - F7
   - F8
   - ''
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   - ''
   - ''
   - ''
@@ -236,18 +236,18 @@ layers:
   - ''
   - ''
   Adjust:
-  - '&bootloader'
+  - $$mdi:progress-download$$
   - ''
   - ''
   - ''
   - ''
   - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - BT CLR
+  - {t: '$$mdi:bluetooth-connect$$', h: '0'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '4'}
+  - $$mdi:bluetooth-off$$
   - ''
   - ''
   - ''
@@ -255,11 +255,11 @@ layers:
   - ''
   - ''
   - OUT BLE
-  - VOL DN
-  - MUTE
-  - VOL UP
-  - PRINTSCREEN
-  - '&studio_unlock'
+  - $$mdi:volume-low$$
+  - $$mdi:volume-off$$
+  - $$mdi:volume-high$$
+  - $$mdi:printer$$
+  - $$mdi:lock-open$$
   - ''
   - ''
   - ''
@@ -267,9 +267,9 @@ layers:
   - ''
   - ''
   - OUT USB
-  - PREV
-  - PLAY PAUSE
-  - NEXT
+  - $$mdi:skip-previous$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-next$$
   - ''
   - ''
   - ''
@@ -390,7 +390,7 @@ combos:
   a: top
   o: 0.2
 - p: [39, 16]
-  k: Ctl+SPACE
+  k: Ctl+$$mdi:keyboard-space$$
   l: [Ru, Base]
   a: bottom
   o: 0.8
@@ -415,7 +415,7 @@ combos:
   a: bottom
   o: 0.5
 - p: [14, 38]
-  k: Alt+TAB
+  k: Alt+$$mdi:keyboard-tab$$
   a: bottom
   o: 0.4
 - p: [19, 21]
@@ -423,7 +423,7 @@ combos:
   a: bottom
   o: 0.2
 - p: [19, 22]
-  k: CAPSLOCK
+  k: $$mdi:apple-keyboard-caps$$
   a: bottom
   o: 0.5
 - p: [15, 39]
