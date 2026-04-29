@@ -100,7 +100,7 @@ layers:
   - <
   - '>'
   - '"'
-  - SINGLE QUOTE
+  - ''''
   - '~'
   - '&'
   - '{'
@@ -121,7 +121,7 @@ layers:
   - ''
   - ''
   - \
-  - ASTRK
+  - '*'
   - +
   - '@'
   - $
@@ -133,7 +133,7 @@ layers:
   - ''
   - ''
   - ''
-  - SEMI
+  - SEMICOLON
   - COLON
   - Control
   - {type: held}
@@ -180,7 +180,7 @@ layers:
   - ''
   - ''
   - ''
-  - SEMI
+  - SEMICOLON
   - '&en COLON'
   - Control
   - {type: held}
