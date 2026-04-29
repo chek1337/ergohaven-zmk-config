@@ -86,3 +86,140 @@ parse_config:
 
 draw_config:
   draw_key_sides: false
+
+  key_h: 64
+  key_rx: 4
+  key_ry: 4
+
+  line_spacing: 1
+
+  combo_w: 30
+  combo_h: 30
+
+  small_pad: 4
+
+  inner_pad_w: 2
+  inner_pad_h: 2
+  outer_pad_w: 0
+  outer_pad_h: 0
+
+  append_colon_to_layer_header: false
+  shrink_wide_legends: 5
+
+  glyph_tap_size: 22
+  glyph_hold_size: 16
+  glyph_shifted_size: 16
+
+  svg_style: |
+    svg path {
+        fill: inherit;
+    }
+
+    svg.keymap {
+        --color--material--blue-gray--50: rgb(236, 239, 241);
+        --color--material--blue-gray--100: rgb(207, 216, 220);
+        --color--material--blue-gray--200: rgb(176, 190, 197);
+        --color--material--blue-gray--300: rgb(144, 164, 174);
+        --color--material--blue-gray--400: rgb(120, 144, 156);
+        --color--material--blue-gray--500: rgb(96, 125, 139);
+        --color--material--blue-gray--600: rgb(84, 110, 122);
+        --color--material--blue-gray--700: rgb(69, 90, 100);
+        --color--material--blue-gray--800: rgb(55, 71, 79);
+        --color--material--blue-gray--900: rgb(38, 50, 56);
+
+        --color--bg: transparent;
+        --color--text: var(--color--material--blue-gray--900);
+
+        --color--layer--text: var(--color--material--blue-gray--400);
+
+        --color--key--bg: var(--color--material--blue-gray--50);
+        --color--key--border: white;
+        --color--key--text--tap: var(--color--text);
+        --color--key--text--shifted: var(--color--material--blue-gray--400);
+        --color--key--text--hold: var(--color--material--blue-gray--400);
+
+        --color--combo--bg: var(--color--material--blue-gray--100);
+        --color--combo--border: var(--color--combo--bg);
+        --color--combo--dendron: var(--color--combo--border);
+        --color--combo--text--tap: var(--color--material--blue-gray--800);
+        --color--combo--text--shifted: var(--color--material--blue-gray--400);
+        --color--combo--text--hold: var(--color--combo--text--tap);
+
+        font-family: system-ui, "Noto Sans", "Segoe UI", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        font-kerning: normal;
+        text-rendering: optimizeLegibility;
+        fill: var(--color--text);
+        background-color: var(--color--bg);
+    }
+
+    rect,
+    path {
+      shape-rendering: geometricPrecision;
+    }
+
+    text {
+        text-anchor: middle;
+        dominant-baseline: middle;
+        line-height: 1;
+    }
+
+    text.label {
+        font-size: 32px;
+        text-anchor: start;
+        paint-order: stroke;
+        fill: var(--color--layer--text);
+    }
+
+    rect.key,
+    rect.combo {
+        fill: var(--color--key--bg);
+        stroke: var(--color--key--border);
+    }
+    .tap {
+      fill: var(--color--key--text--tap);
+    }
+    .shifted,
+    .hold {
+        font-size: 14px;
+        text-anchor: middle;
+    }
+    .shifted {
+        fill: var(--color--key--text--shifted);
+    }
+    .hold {
+        fill: var(--color--key--text--hold);
+    }
+
+    .combo {
+      --color--key--bg: var(--color--combo--bg);
+      --color--key--border: var(--color--combo--border);
+      --color--key--text--tap: var(--color--combo--text--tap);
+      --color--key--text--shifted: var(--color--combo--text--shifted);
+      --color--key--text--hold: var(--color--combo--text--hold);
+    }
+    rect.combo {
+      opacity: 0.8;
+      stroke-width: 0;
+    }
+    path.combo {
+      stroke-width: 1;
+      stroke: var(--color--combo--dendron);
+      fill: none;
+    }
+    .combo.tap {
+      font-size: 14px;
+    }
+    .combo.shifted {
+      font-size: 11px;
+    }
+    .combo.hold {
+      font-size: 14px;
+    }
+
+    .trans,
+    .none,
+    .ghost {
+      opacity: 0.4;
+    }
