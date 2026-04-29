@@ -221,7 +221,7 @@
 &none  &kp Q              &kp W              &kp E                &kp R           &kp T                      &kp Y  &kp U           &kp I                 &kp O               &none               &kp F13
 &none  &hmr_l LEFT_GUI A  &hmr_l LEFT_ALT S  &hmr_l LEFT_SHIFT D  &hmr_l LCTRL F  &kp G                      &kp H  &hmr_r RCTRL J  &hmr_r RIGHT_SHIFT K  &hmr_r RIGHT_ALT L  &hmr_r RIGHT_GUI P  &none
 &none  &kp Z              &kp X              &kp C                &kp V           &kp B                      &kp N  &kp M           &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &none               &none
-                          &kp LALT           &kp LGUI             &kp TAB         &kp SPACE  &mo 2    &mo 3  &mo 9  &none           &none                 &none
+                          &none              &none                &kp TAB         &kp SPACE  &mo 2    &mo 3  &mo 9  &none           &none                 &none
             >;
 
             display-name = "Base";
@@ -271,10 +271,10 @@
 
         adj {
             bindings = <
-&bootloader  &none  &kp F1  &kp F2   &kp F3   &kp F4                   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4     &bt BT_CLR
-&none        &none  &kp F5  &kp F6   &kp F7   &kp F8                   &out OUT_BLE  &kp C_VOL_DN  &kp C_MUTE        &kp C_VOL_UP  &kp PRINTSCREEN  &studio_unlock
-&none        &none  &kp F9  &kp F10  &kp F11  &kp F12                  &out OUT_USB  &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_NEXT    &none            &none
-                    &none   &none    &none    &none    &none    &none  &none         &none         &none             &none
+&bootloader  &none  &none  &none  &none  &none                  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4     &bt BT_CLR
+&none        &none  &none  &none  &none  &none                  &out OUT_BLE  &kp C_VOL_DN  &kp C_MUTE        &kp C_VOL_UP  &kp PRINTSCREEN  &studio_unlock
+&none        &none  &none  &none  &none  &none                  &out OUT_USB  &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_NEXT    &none            &none
+                    &none  &none  &none  &none  &none    &none  &none         &none         &none             &none
             >;
 
             display-name = "Adjust";
@@ -315,10 +315,10 @@
 
         additional_nav {
             bindings = <
-&none  &kp PAGE_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp HOME                         &caps_word  &kp RS(ENTER)  &kp RC(DELETE)      &kp DELETE                 &none       &none
-&none  &kp PAGE_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp END                          &none       &kp ENTER      &kp RC(BSPC)        &kp BSPC                   &kp ESCAPE  &none
-&none  &none          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0                     &en COMMA   &en DOT        &kp RU_CYRILLIC_HA  &kp RU_CYRILLIC_HARD_SIGN  &none       &none
-                      &none         &none         &none         &skq LEFT_SHIFT  &none    &none  &none       &none          &none               &none
+&none  &kp PAGE_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp HOME                         &none      &kp RS(ENTER)  &kp RC(DELETE)      &kp DELETE                 &none       &none
+&none  &kp PAGE_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp END                          &none      &kp ENTER      &kp RC(BSPC)        &kp BSPC                   &kp ESCAPE  &none
+&none  &none          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0                     &en COMMA  &en DOT        &kp RU_CYRILLIC_HA  &kp RU_CYRILLIC_HARD_SIGN  &none       &none
+                      &none         &none         &none         &skq LEFT_SHIFT  &none    &none  &none      &none          &none               &none
             >;
         };
 
