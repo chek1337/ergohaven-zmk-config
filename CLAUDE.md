@@ -39,7 +39,7 @@
 |------|-----------------|--------------------------|
 | `zmk_remove_keycode_prefix` | Срезает префиксы `RU_`/`EN_` с keycode'ов перед маппингом | Если появятся новые префиксы behavior'ов |
 | `zmk_combos` | Размещение combo-боксов: `align: top/bottom/left/right`, `offset: 0..1`. Решает наложения, когда несколько combo сидят на одних/соседних клавишах. | Имена combo берутся из `config/velvet_v3_ui_ruen.keymap` строк 79–162 (например `cmben`, `russian_ha`). При появлении нового combo — добавить запись здесь. |
-| `raw_binding_map` | Маппит конкретное полное binding-выражение (например `&bootloader`, `&studio_unlock`) на `tap`/`hold`/`shifted` метки. Имеет приоритет над `zmk_keycode_map`. | Использовать для составных биндингов и custom behavior'ов, у которых надо переопределить отображение целиком. |
+| `raw_binding_map` | Маппит binding-выражение (полное или по `binding_parts[0]`) на `tap`/`hold`/`shifted`/`type`. Имеет приоритет над `zmk_keycode_map` и над дефолтным парсингом keymap-drawer'а (включая `&none`). | Используется для: custom behavior'ов (`&bootloader`, `&caps_word`, `&layer_en/ru`), параметризованных макросов (`&en X` — язык-переключатель, рендерится `tap=символ + hold=en`), составных хоткеев (`&kp LS(LC(C))` → иконка copy/paste), мышиных кнопок (`&mkp MB1/2/3`), и затемнения `&none` через `{type: ghost}` (keymap-drawer по умолчанию не вешает классов на пустые клавиши, поэтому правило `.ghost { opacity: 0.4 }` без этого не сработает). При добавлении нового `&en X` биндинга — добавить ещё одну строку. |
 | `zmk_keycode_map` | Маппит ZMK keycode (после срезания префикса) на текст или `$$mdi:icon$$`. Поддерживает форму `KEY: {tap: x, shifted: y, hold: z}` для разных слотов. | **Это главный блок для иконок**. Имена иконок — на https://pictogrammers.com/library/mdi/. Кириллические символы (CYRILLIC_*) тоже здесь — порядок не важен, ключи уникальны. |
 
 ### `draw_config:` — как рендерится SVG
@@ -51,7 +51,8 @@
 | `key_rx`/`key_ry: 4` | Радиус скругления клавиш. |
 | `combo_w`/`combo_h: 30` | Размер combo-боксов. Сделай больше если combo-метка не помещается. |
 | `inner_pad_w/h: 2` | Промежуток между клавишами. |
-| `outer_pad_w/h: 0` | Внешние отступы — выключены (рамка по краю SVG плотно к клавишам). |
+| `outer_pad_w: 0` | Горизонтальные внешние отступы выключены (SVG плотно к клавишам по бокам). |
+| `outer_pad_h: 40` | Вертикальный отступ сверху/между слоями. **Должен быть ≥ font-size label'а слоя** (сейчас 32px) — иначе `text.label` обрезается viewBox'ом сверху первого слоя или налезает на клавиши следующего. |
 | `small_pad: 4` | Отступ от края клавиши до вторичных меток (пока не используется напрямую — translate'ы перекрывают). |
 | `shrink_wide_legends: 5` | Если tap-лейбл длиннее 5 символов — шрифт уменьшится. |
 | `glyph_tap_size: 22` | Размер mdi-иконки на месте tap-метки. |
@@ -65,8 +66,8 @@
 
 1. **`svg path { fill: inherit }`** — наследование fill для иконок через `<use>` теги.
 2. **`svg.keymap { ... }`** — все CSS-переменные:
-   - **`--color--material--blue-gray--50…900`** — основная палитра (фон клавиш, текст).
-   - **`--color--material--teal--50…500`** — акцентная палитра (используется на F/J home-индексах).
+   - **`--color--material--blue-gray--50…900`** — нейтральная шкала (фон клавиш, текст). Имена legacy, **значения = GitHub Primer neutrals** (`#f6f8fa` → `#1f2328`).
+   - **`--color--material--teal--50…500`** — акцент на F/J home-индексах. **Значения = GitHub Primer accent blue** (`#ddf4ff` → `#0969da`).
    - **`--color--bg`, `--color--text`, `--color--layer--text`** — общие переменные темы.
    - **`--color--key--*`** — фон/бордер/цвета текста для **обычных** клавиш.
    - **`--color--combo--*`** — то же для combo-боксов.
@@ -84,7 +85,7 @@
 13. **`.keypos-38…42 .key`** — акцент blue-gray-100 на **активных thumb-клавишах**.
 14. **`.combo`** — переопределяет переменные внутри combo-боксов (используют combo-палитру вместо key-палитры).
 15. **`rect.combo { opacity: 0.8 }`** — combo-боксы полупрозрачные.
-16. **`path.combo`** — стиль дендронов (линий от combo к ключам).
+16. **`path.combo`** — стиль дендронов (линий от combo к ключам): тонкая `stroke-width: 1`, `opacity: 0.5`, цвет берётся из `--color--combo--dendron` (сейчас `blue-gray-400` = `#656d76`, иначе на светлом фоне будет невидно).
 17. **`.combo.tap/shifted/hold`** — размеры шрифта внутри combo-бокса.
 18. **`.trans, .none, .ghost { opacity: 0.4 }`** — приглушённые transparent/none/ghost клавиши.
 
@@ -96,6 +97,7 @@
 | Поменять цвет конкретной клавиши | `svg_style` — добавить блок `.keypos-N .key { --color--key--bg: var(--color--material--<palette>--<shade>) }` |
 | Заменить текст-лейбл на иконку | `parse_config.zmk_keycode_map` — добавить `KEYCODE: $$mdi:<icon-name>$$` (имена на pictogrammers.com/library/mdi) |
 | Заменить отображение конкретного binding'а целиком | `parse_config.raw_binding_map` — добавить `"&behavior arg": {tap: ..., hold: ..., shifted: ...}` |
+| Затемнить класс клавиш (например `&none`) | `parse_config.raw_binding_map: "&binding": {type: ghost}` — клавиша получит CSS-класс `ghost`, существующее правило `.ghost { opacity: 0.4 }` затемнит её. |
 | Иконка наезжает на tap-лейбл в mod-tap'е | Добавить в `svg_style`: `.hold.glyph { translate: ... }` или `.shifted.glyph { translate: ... }` с микро-сдвигом |
 | Сменить высоту клавиш | `draw_config.key_h` — **обязательно пересчитать `translate` 22px/2px/4px в `svg_style`** (пропорционально `key_h/64`) |
 | Сменить размер шрифта/семейство | `svg_style` → `svg.keymap { font-family: ..., font-size: ... }` |
