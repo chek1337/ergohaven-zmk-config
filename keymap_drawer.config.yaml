@@ -186,10 +186,36 @@ draw_config:
         text-anchor: middle;
     }
     .shifted {
+        dominant-baseline: hanging;
         fill: var(--color--key--text--shifted);
+        translate: 22px 2px;
     }
     .hold {
+        dominant-baseline: ideographic;
         fill: var(--color--key--text--hold);
+        translate: 22px 4px;
+    }
+
+    .keypos-0 .shifted, .keypos-1 .shifted, .keypos-2 .shifted,
+    .keypos-3 .shifted, .keypos-4 .shifted, .keypos-5 .shifted,
+    .keypos-12 .shifted, .keypos-13 .shifted, .keypos-14 .shifted,
+    .keypos-15 .shifted, .keypos-16 .shifted, .keypos-17 .shifted,
+    .keypos-24 .shifted, .keypos-25 .shifted, .keypos-26 .shifted,
+    .keypos-27 .shifted, .keypos-28 .shifted, .keypos-29 .shifted,
+    .keypos-36 .shifted, .keypos-37 .shifted, .keypos-38 .shifted,
+    .keypos-39 .shifted, .keypos-40 .shifted {
+        translate: -22px 2px;
+    }
+
+    .keypos-0 .hold, .keypos-1 .hold, .keypos-2 .hold,
+    .keypos-3 .hold, .keypos-4 .hold, .keypos-5 .hold,
+    .keypos-12 .hold, .keypos-13 .hold, .keypos-14 .hold,
+    .keypos-15 .hold, .keypos-16 .hold, .keypos-17 .hold,
+    .keypos-24 .hold, .keypos-25 .hold, .keypos-26 .hold,
+    .keypos-27 .hold, .keypos-28 .hold, .keypos-29 .hold,
+    .keypos-36 .hold, .keypos-37 .hold, .keypos-38 .hold,
+    .keypos-39 .hold, .keypos-40 .hold {
+        translate: -22px 4px;
     }
 
     .combo {
