@@ -1,0 +1,73 @@
+parse_config:
+  zmk_remove_keycode_prefix:
+    - "RU_"
+    - "EN_"
+
+  zmk_keycode_map:
+    CYRILLIC_A: А
+    CYRILLIC_BE: Б
+    CYRILLIC_VE: В
+    CYRILLIC_GHE: Г
+    CYRILLIC_DE: Д
+    CYRILLIC_IE: Е
+    CYRILLIC_IO: Ё
+    CYRILLIC_ZHE: Ж
+    CYRILLIC_ZE: З
+    CYRILLIC_I: И
+    CYRILLIC_SHORT_I: Й
+    CYRILLIC_KA: К
+    CYRILLIC_EL: Л
+    CYRILLIC_EM: М
+    CYRILLIC_EN: Н
+    CYRILLIC_O: О
+    CYRILLIC_PE: П
+    CYRILLIC_ER: Р
+    CYRILLIC_ES: С
+    CYRILLIC_TE: Т
+    CYRILLIC_U: У
+    CYRILLIC_EF: Ф
+    CYRILLIC_HA: Х
+    CYRILLIC_TSE: Ц
+    CYRILLIC_CHE: Ч
+    CYRILLIC_SHA: Ш
+    CYRILLIC_SHCHA: Щ
+    CYRILLIC_HARD_SIGN: Ъ
+    CYRILLIC_YERU: Ы
+    CYRILLIC_SOFT_SIGN: Ь
+    CYRILLIC_E: Э
+    CYRILLIC_YU: Ю
+    CYRILLIC_YA: Я
+
+    DQT: '"'
+    SQT: "'"
+    FSLH: "/"
+    BACKSLASH: "\\"
+    QMARK: "?"
+    COMMA: ","
+    DOT: "."
+    EXCL: "!"
+    PRCNT: "%"
+    LPAR: "("
+    RPAR: ")"
+    LBKT: "["
+    RBKT: "]"
+    UNDER: _
+    EQUAL: "="
+    MINUS: "-"
+    PLUS: "+"
+    ASTERISK: "*"
+    AMPERSAND: "&"
+    DOLLAR: $
+    AT: "@"
+    HASH: "#"
+    PIPE: "|"
+    CARET: "^"
+    TILDE: "~"
+    GRAVE: "`"
+    LESS_THAN: <
+    GREATER_THAN: ">"
+    LEFT_BRACE: "{"
+    RIGHT_BRACE: "}"
+
+draw_config:
+  draw_key_sides: false
