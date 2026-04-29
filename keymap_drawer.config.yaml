@@ -18,7 +18,71 @@ parse_config:
     ctrl_shift_c_ru: {align: bottom, offset: 0.5}
     ctrl_shift_c_en: {align: bottom, offset: 0.5}
 
+  raw_binding_map:
+    "&bootloader": {tap: $$mdi:progress-download$$}
+    "&studio_unlock": {tap: $$mdi:lock-open$$}
+
   zmk_keycode_map:
+    LSHIFT: $$mdi:apple-keyboard-shift$$
+    LSHFT: $$mdi:apple-keyboard-shift$$
+    RSHIFT: $$mdi:apple-keyboard-shift$$
+    RSHFT: $$mdi:apple-keyboard-shift$$
+    LEFT_SHIFT: $$mdi:apple-keyboard-shift$$
+    RIGHT_SHIFT: $$mdi:apple-keyboard-shift$$
+    LCTRL: $$mdi:apple-keyboard-control$$
+    RCTRL: $$mdi:apple-keyboard-control$$
+    LALT: $$mdi:apple-keyboard-option$$
+    LEFT_ALT: $$mdi:apple-keyboard-option$$
+    RIGHT_ALT: $$mdi:apple-keyboard-option$$
+    LGUI: $$mdi:apple-keyboard-command$$
+    LEFT_GUI: $$mdi:apple-keyboard-command$$
+    RGUI: $$mdi:apple-keyboard-command$$
+    RIGHT_GUI: $$mdi:apple-keyboard-command$$
+
+    UP: $$mdi:arrow-up-bold$$
+    DOWN: $$mdi:arrow-down-bold$$
+    LEFT: $$mdi:arrow-left-bold$$
+    RIGHT: $$mdi:arrow-right-bold$$
+    PG_UP: $$mdi:transfer-up$$
+    PG_DN: $$mdi:transfer-down$$
+    PAGE_UP: $$mdi:transfer-up$$
+    PAGE_DOWN: $$mdi:transfer-down$$
+    HOME: $$mdi:arrow-collapse-left$$
+    END: $$mdi:arrow-collapse-right$$
+
+    SPACE: $$mdi:keyboard-space$$
+    TAB: $$mdi:keyboard-tab$$
+    ENTER: $$mdi:keyboard-return$$
+    RET: $$mdi:keyboard-return$$
+    ESC: $$mdi:keyboard-esc$$
+    ESCAPE: $$mdi:keyboard-esc$$
+    BSPC:
+      type: backspace
+      tap: $$mdi:backspace$$
+    BACKSPACE:
+      type: backspace
+      tap: $$mdi:backspace$$
+    DEL: $$mdi:backspace-reverse-outline$$
+    DELETE: $$mdi:backspace-reverse-outline$$
+
+    CAPS: $$mdi:apple-keyboard-caps$$
+    CAPSLOCK: $$mdi:apple-keyboard-caps$$
+    PRINTSCREEN: $$mdi:printer$$
+    PSCRN: $$mdi:printer$$
+
+    C_MUTE: $$mdi:volume-off$$
+    C_VOL_UP: $$mdi:volume-high$$
+    C_VOL_DN: $$mdi:volume-low$$
+    C_NEXT: $$mdi:skip-next$$
+    C_PREV: $$mdi:skip-previous$$
+    C_PP: $$mdi:play-pause$$
+    C_PLAY_PAUSE: $$mdi:play-pause$$
+
+    BT_CLR: $$mdi:bluetooth-off$$
+    BT_SEL: $$mdi:bluetooth-connect$$
+    OUT_BLE: $$mdi:bluetooth$$
+    OUT_USB: $$mdi:usb$$
+
     CYRILLIC_A: А
     CYRILLIC_BE: Б
     CYRILLIC_VE: В
