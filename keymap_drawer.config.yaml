@@ -8,13 +8,13 @@ parse_config:
     cmbru: {align: top, offset: 0.2}
     capslock_one_word: {align: top, offset: 0.2}
     caps: {align: bottom, offset: 0.00}
-    window_mode_nvim: {align: bottom, offset: 0.55}
-    alt_tab: {align: bottom, offset: 0.4}
-    tmux_focus: {align: bottom, offset: 0.9}
-    ctrl_shift_v_ru: {align: bottom, offset: 0.7}
-    ctrl_shift_v_en: {align: bottom, offset: 0.7}
-    ctrl_shift_c_ru: {align: bottom, offset: 0.15}
-    ctrl_shift_c_en: {align: bottom, offset: 0.15}
+    # window_mode_nvim: {align: bottom, offset: 0.55}
+    # alt_tab: {align: bottom, offset: 0.4}
+    # tmux_focus: {align: bottom, offset: 0.9}
+    ctrl_shift_v_ru: {align: bottom, offset: 0.5}
+    ctrl_shift_v_en: {align: bottom, offset: 0.5}
+    ctrl_shift_c_ru: {align: bottom, offset: 0.0}
+    ctrl_shift_c_en: {align: bottom, offset: 0.0}
 
   raw_binding_map:
     "&bootloader": {tap: $$mdi:progress-download$$}
