@@ -376,8 +376,9 @@ layers:
   - ''
   - ''
   - ''
-  Mouse: ['', '', '', '', '', '', '', '', '', '', '', '', '', Scroll, '&mkp MB3', '&mkp MB2', '&mkp MB1', '', '', '&mkp MB1', '&mkp MB2', '&mkp MB3', Scroll, '',
-    '', Sniper, '', '', '', '', '', '', '', '', Sniper, '', '', '', '', '', '', '', '', '', '', '']
+  Mouse: ['', '', '', '', '', '', '', '', '', '', '', '', '', Scroll, '$$mdi:mouse-scroll-wheel$$', '$$mdi:mouse-right-click$$', '$$mdi:mouse-left-click$$', '', '',
+    '$$mdi:mouse-left-click$$', '$$mdi:mouse-right-click$$', '$$mdi:mouse-scroll-wheel$$', Scroll, '', '', Sniper, '', '', '', '', '', '', '', '', Sniper, '', '',
+    '', '', '', '', '', '', '', '', '']
   Scroll:
   - ''
   - ''
@@ -393,14 +394,14 @@ layers:
   - ''
   - ''
   - {type: held}
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - '&mkp MB1'
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click$$
+  - $$mdi:mouse-left-click$$
   - ''
   - ''
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - $$mdi:mouse-left-click$$
+  - $$mdi:mouse-right-click$$
+  - $$mdi:mouse-scroll-wheel$$
   - ''
   - ''
   - ''
@@ -440,14 +441,14 @@ layers:
   - ''
   - ''
   - ''
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - '&mkp MB1'
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click$$
+  - $$mdi:mouse-left-click$$
   - ''
   - ''
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - $$mdi:mouse-left-click$$
+  - $$mdi:mouse-right-click$$
+  - $$mdi:mouse-scroll-wheel$$
   - ''
   - ''
   - ''
