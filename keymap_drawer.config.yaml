@@ -19,6 +19,25 @@ parse_config:
   raw_binding_map:
     "&bootloader": {tap: $$mdi:progress-download$$}
     "&studio_unlock": {tap: $$mdi:lock-open$$}
+    "&en GRAVE":        {tap: "`", hold: en}
+    "&en LESS_THAN":    {tap: "<", hold: en}
+    "&en GREATER_THAN": {tap: ">", hold: en}
+    "&en SQT":          {tap: "'", hold: en}
+    "&en TILDE":        {tap: "~", hold: en}
+    "&en AMPERSAND":    {tap: "&", hold: en}
+    "&en LEFT_BRACE":   {tap: "{", hold: en}
+    "&en RIGHT_BRACE":  {tap: "}", hold: en}
+    "&en HASH":         {tap: "#", hold: en}
+    "&en PIPE":         {tap: "|", hold: en}
+    "&en AT":           {tap: "@", hold: en}
+    "&en DOLLAR":       {tap: "$", hold: en}
+    "&en LBKT":         {tap: "[", hold: en}
+    "&en RBKT":         {tap: "]", hold: en}
+    "&en COLON":        {tap: ":", hold: en}
+    "&en COMMA":        {tap: ",", hold: en}
+    "&en DOT":          {tap: ".", hold: en}
+    "&en LS(LC(V))":    {tap: "Sft+Ctl+V", hold: en}
+    "&en LS(LC(C))":    {tap: "Sft+Ctl+C", hold: en}
 
   zmk_keycode_map:
     LSHIFT: $$mdi:apple-keyboard-shift$$
