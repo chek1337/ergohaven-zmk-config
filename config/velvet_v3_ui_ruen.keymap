@@ -218,9 +218,9 @@
 
         en {
             bindings = <
-&kp ESC    &kp Q              &kp W              &kp E                &kp R           &kp T                      &kp Y  &kp U           &kp I                 &kp O               &kp P                  &kp F13
-&kp LSHFT  &hmr_l LEFT_GUI A  &hmr_l LEFT_ALT S  &hmr_l LEFT_SHIFT D  &hmr_l LCTRL F  &kp G                      &kp H  &hmr_r RCTRL J  &hmr_r RIGHT_SHIFT K  &hmr_r RIGHT_ALT L  &hmr_r RIGHT_GUI SEMI  &none
-&kp LCTRL  &kp Z              &kp X              &kp C                &kp V           &kp B                      &kp N  &kp M           &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &none                  &none
+&kp ESC    &kp Q              &kp W              &kp E                &kp R           &kp T                      &kp Y  &kp U           &kp I                 &kp O               &none               &kp F13
+&kp LSHFT  &hmr_l LEFT_GUI A  &hmr_l LEFT_ALT S  &hmr_l LEFT_SHIFT D  &hmr_l LCTRL F  &kp G                      &kp H  &hmr_r RCTRL J  &hmr_r RIGHT_SHIFT K  &hmr_r RIGHT_ALT L  &hmr_r RIGHT_GUI P  &none
+&kp LCTRL  &kp Z              &kp X              &kp C                &kp V           &kp B                      &kp N  &kp M           &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &none               &none
                               &kp LALT           &kp LGUI             &kp TAB         &kp SPACE  &mo 2    &mo 3  &mo 9  &none           &none                 &none
             >;
 
