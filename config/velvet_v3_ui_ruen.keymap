@@ -230,10 +230,10 @@
         ru {
             display-name = "Ru";
             bindings = <
-&kp ESC    &kp RU_CYRILLIC_SHORT_I         &kp RU_CYRILLIC_TSE               &kp RU_CYRILLIC_U                 &kp RU_CYRILLIC_KA          &kp RU_CYRILLIC_IE                  &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE         &kp RU_CYRILLIC_SHA                &kp RU_CYRILLIC_SHCHA            &kp RU_CYRILLIC_ZE                &kp F13
-&kp LSHFT  &hmr_l LEFT_GUI RU_CYRILLIC_EF  &hmr_l LEFT_ALT RU_CYRILLIC_YERU  &hmr_l LEFT_SHIFT RU_CYRILLIC_VE  &hmr_l LCTRL RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                  &kp RU_CYRILLIC_ER  &hmr_r RCTRL RU_CYRILLIC_O  &hmr_r RIGHT_SHIFT RU_CYRILLIC_EL  &hmr_r RIGHT_ALT RU_CYRILLIC_DE  &hmr_r RIGHT_GUI RU_CYRILLIC_ZHE  &kp RU_CYRILLIC_HA
-&kp LCTRL  &kp RU_CYRILLIC_YA              &kp RU_CYRILLIC_CHE               &kp RU_CYRILLIC_ES                &kp RU_CYRILLIC_EM          &kp RU_CYRILLIC_I                   &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN   &kp RU_CYRILLIC_BE                 &kp RU_CYRILLIC_YU               &kp RU_CYRILLIC_E                 &kp RU_CYRILLIC_HARD_SIGN
-                                           &kp LALT                          &kp LGUI                          &kp TAB                     &kp SPACE           &mo 2    &mo 4  &mo 9               &none                       &none                              &none
+&none  &kp RU_CYRILLIC_SHORT_I         &kp RU_CYRILLIC_TSE               &kp RU_CYRILLIC_U                 &kp RU_CYRILLIC_KA          &kp RU_CYRILLIC_IE                  &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE         &kp RU_CYRILLIC_SHA                &kp RU_CYRILLIC_SHCHA            &kp RU_CYRILLIC_ZE                &kp F13
+&none  &hmr_l LEFT_GUI RU_CYRILLIC_EF  &hmr_l LEFT_ALT RU_CYRILLIC_YERU  &hmr_l LEFT_SHIFT RU_CYRILLIC_VE  &hmr_l LCTRL RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                  &kp RU_CYRILLIC_ER  &hmr_r RCTRL RU_CYRILLIC_O  &hmr_r RIGHT_SHIFT RU_CYRILLIC_EL  &hmr_r RIGHT_ALT RU_CYRILLIC_DE  &hmr_r RIGHT_GUI RU_CYRILLIC_ZHE  &none
+&none  &kp RU_CYRILLIC_YA              &kp RU_CYRILLIC_CHE               &kp RU_CYRILLIC_ES                &kp RU_CYRILLIC_EM          &kp RU_CYRILLIC_I                   &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN   &kp RU_CYRILLIC_BE                 &kp RU_CYRILLIC_YU               &kp RU_CYRILLIC_E                 &none
+                                       &kp LALT                          &kp LGUI                          &kp TAB                     &kp SPACE           &mo 2    &mo 4  &mo 9               &none                       &none                              &none
             >;
         };
 
@@ -315,10 +315,10 @@
 
         additional_nav {
             bindings = <
-&none  &kp N9         &kp N8       &kp N7    &kp N6                     &kp N5                                        &caps_word  &kp RS(ENTER)  &kp RC(DELETE)  &kp DELETE  &none       &none
-&none  &kp N4         &kp N3       &kp N2    &kp N1                     &kp N0                                        &none       &kp ENTER      &kp RC(BSPC)    &kp BSPC    &kp ESCAPE  &none
-&none  &kp PAGE_DOWN  &kp PAGE_UP  &kp HOME  &kp END                    &none                                         &en COMMA   &en DOT        &none           &none       &none       &none
-                      &none        &none     &kp RU_CYRILLIC_HARD_SIGN  &skq LEFT_SHIFT  &kp RU_CYRILLIC_HA    &none  &none       &none          &none           &none
+&none  &kp N9         &kp N8       &kp N7    &kp N6                     &kp N5                                        &caps_word  &kp RS(ENTER)  &kp RC(DELETE)      &kp DELETE                 &none       &none
+&none  &kp N4         &kp N3       &kp N2    &kp N1                     &kp N0                                        &none       &kp ENTER      &kp RC(BSPC)        &kp BSPC                   &kp ESCAPE  &none
+&none  &kp PAGE_DOWN  &kp PAGE_UP  &kp HOME  &kp END                    &none                                         &en COMMA   &en DOT        &kp RU_CYRILLIC_HA  &kp RU_CYRILLIC_HARD_SIGN  &none       &none
+                      &none        &none     &kp RU_CYRILLIC_HARD_SIGN  &skq LEFT_SHIFT  &kp RU_CYRILLIC_HA    &none  &none       &none          &none               &none
             >;
         };
 
