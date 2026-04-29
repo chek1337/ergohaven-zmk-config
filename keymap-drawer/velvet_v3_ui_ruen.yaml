@@ -416,27 +416,21 @@ combos:
   o: 0.5
 - p: [14, 38]
   k: Alt+$$mdi:keyboard-tab$$
+  l: [Base, Ru]
   a: bottom
   o: 0.4
 - p: [19, 21]
   k: '&caps_word'
+  l: [Base, Ru]
   a: bottom
   o: 0.2
 - p: [19, 22]
   k: $$mdi:apple-keyboard-caps$$
+  l: [Base, Ru]
   a: bottom
   o: 0.5
 - p: [15, 39]
   k: Ctl+W
+  l: [Base, Ru]
   a: bottom
   o: 0.6
-- p: [8, 7]
-  k: Х
-  l: [Ru]
-  a: top
-  o: 0.2
-- p: [9, 8]
-  k: Ъ
-  l: [Ru]
-  a: top
-  o: 0.5

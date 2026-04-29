@@ -1,4 +1,4 @@
-<svg width="960" height="3553" viewBox="0 0 960 3553" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="960" height="3438" viewBox="0 0 960 3438" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
 <svg id="mdi:apple-keyboard-caps">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-caps" viewBox="0 0 24 24"><path d="M15,14V8H17.17L12,2.83L6.83,8H9V14H15M12,0L22,10H17V16H7V10H2L12,0M7,18H17V24H7V18M15,20H9V22H15V20Z" /></svg>
@@ -497,7 +497,7 @@ path.combo {
 </g>
 <g transform="translate(0, 425)" class="layer-Ru">
 <text x="0" y="0" class="label" id="Ru">Ru</text>
-<g transform="translate(0, 48)">
+<g transform="translate(0, 29)">
 <g transform="translate(32, 56)" class="key keypos-0">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
 </g>
@@ -735,21 +735,9 @@ path.combo {
 <rect rx="4" ry="4" x="284" y="353" width="30" height="30" class="combo"/>
 <text x="299" y="368" class="combo tap">Ctl+W</text>
 </g>
-<g class="combo combopos-8">
-<path d="M704,-14 h26 a6.0,6.0 0 0 1 6.0,6.0 v18" class="combo"/>
-<path d="M704,-14 h-26 a6.0,6.0 0 0 0 -6.0,6.0 v26" class="combo"/>
-<rect rx="4" ry="4" x="689" y="-29" width="30" height="30" class="combo"/>
-<text x="704" y="-14" class="combo tap">Х</text>
-</g>
-<g class="combo combopos-9">
-<path d="M768,-33 h26 a6.0,6.0 0 0 1 6.0,6.0 v46" class="combo"/>
-<path d="M768,-33 h-26 a6.0,6.0 0 0 0 -6.0,6.0 v38" class="combo"/>
-<rect rx="4" ry="4" x="753" y="-48" width="30" height="30" class="combo"/>
-<text x="768" y="-33" class="combo tap">Ъ</text>
 </g>
 </g>
-</g>
-<g transform="translate(0, 869)" class="layer-Symbols">
+<g transform="translate(0, 850)" class="layer-Symbols">
 <text x="0" y="0" class="label" id="Symbols">Symbols</text>
 <g transform="translate(0, 0)">
 <g transform="translate(32, 56)" class="key keypos-0">
@@ -954,33 +942,9 @@ path.combo {
 <g transform="translate(800, 232)" class="key keypos-45">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
 </g>
-<g class="combo combopos-0">
-<path d="M235,335 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-203" class="combo"/>
-<path d="M235,335 h69 a6.0,6.0 0 0 0 6.0,-6.0 v-31" class="combo"/>
-<rect rx="4" ry="4" x="220" y="320" width="30" height="30" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="224" y="324" height="22" width="22.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo combopos-1">
-<path d="M736,150 h-58 a6.0,6.0 0 0 1 -6.0,-6.0 v-18" class="combo"/>
-<path d="M736,150 h58 a6.0,6.0 0 0 0 6.0,-6.0 v-18" class="combo"/>
-<rect rx="4" ry="4" x="721" y="135" width="30" height="30" class="combo"/>
-<text x="736" y="150" class="combo tap"><tspan style="font-size: 62%">&amp;caps_w…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M768,185 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-54" class="combo"/>
-<path d="M768,185 h90 a6.0,6.0 0 0 0 6.0,-6.0 v-38" class="combo"/>
-<rect rx="4" ry="4" x="753" y="170" width="30" height="30" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="757" y="174" height="22" width="22.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
-</g>
-<g class="combo combopos-3">
-<path d="M299,368 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-245" class="combo"/>
-<path d="M299,368 h69 a6.0,6.0 0 0 0 6.0,-6.0 v-44" class="combo"/>
-<rect rx="4" ry="4" x="284" y="353" width="30" height="30" class="combo"/>
-<text x="299" y="368" class="combo tap">Ctl+W</text>
 </g>
 </g>
-</g>
-<g transform="translate(0, 1253)" class="layer-AddNav">
+<g transform="translate(0, 1220)" class="layer-AddNav">
 <text x="0" y="0" class="label" id="AddNav">AddNav</text>
 <g transform="translate(0, 0)">
 <g transform="translate(32, 56)" class="key keypos-0">
@@ -1153,33 +1117,9 @@ path.combo {
 <g transform="translate(800, 232)" class="key keypos-45">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
 </g>
-<g class="combo combopos-0">
-<path d="M235,335 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-203" class="combo"/>
-<path d="M235,335 h69 a6.0,6.0 0 0 0 6.0,-6.0 v-31" class="combo"/>
-<rect rx="4" ry="4" x="220" y="320" width="30" height="30" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="224" y="324" height="22" width="22.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo combopos-1">
-<path d="M736,150 h-58 a6.0,6.0 0 0 1 -6.0,-6.0 v-18" class="combo"/>
-<path d="M736,150 h58 a6.0,6.0 0 0 0 6.0,-6.0 v-18" class="combo"/>
-<rect rx="4" ry="4" x="721" y="135" width="30" height="30" class="combo"/>
-<text x="736" y="150" class="combo tap"><tspan style="font-size: 62%">&amp;caps_w…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M768,185 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-54" class="combo"/>
-<path d="M768,185 h90 a6.0,6.0 0 0 0 6.0,-6.0 v-38" class="combo"/>
-<rect rx="4" ry="4" x="753" y="170" width="30" height="30" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="757" y="174" height="22" width="22.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
-</g>
-<g class="combo combopos-3">
-<path d="M299,368 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-245" class="combo"/>
-<path d="M299,368 h69 a6.0,6.0 0 0 0 6.0,-6.0 v-44" class="combo"/>
-<rect rx="4" ry="4" x="284" y="353" width="30" height="30" class="combo"/>
-<text x="299" y="368" class="combo tap">Ctl+W</text>
 </g>
 </g>
-</g>
-<g transform="translate(0, 1636)" class="layer-Nav">
+<g transform="translate(0, 1589)" class="layer-Nav">
 <text x="0" y="0" class="label" id="Nav">Nav</text>
 <g transform="translate(0, 0)">
 <g transform="translate(32, 56)" class="key keypos-0">
@@ -1338,33 +1278,9 @@ path.combo {
 <g transform="translate(800, 232)" class="key keypos-45">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
 </g>
-<g class="combo combopos-0">
-<path d="M235,335 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-203" class="combo"/>
-<path d="M235,335 h69 a6.0,6.0 0 0 0 6.0,-6.0 v-31" class="combo"/>
-<rect rx="4" ry="4" x="220" y="320" width="30" height="30" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="224" y="324" height="22" width="22.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo combopos-1">
-<path d="M736,150 h-58 a6.0,6.0 0 0 1 -6.0,-6.0 v-18" class="combo"/>
-<path d="M736,150 h58 a6.0,6.0 0 0 0 6.0,-6.0 v-18" class="combo"/>
-<rect rx="4" ry="4" x="721" y="135" width="30" height="30" class="combo"/>
-<text x="736" y="150" class="combo tap"><tspan style="font-size: 62%">&amp;caps_w…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M768,185 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-54" class="combo"/>
-<path d="M768,185 h90 a6.0,6.0 0 0 0 6.0,-6.0 v-38" class="combo"/>
-<rect rx="4" ry="4" x="753" y="170" width="30" height="30" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="757" y="174" height="22" width="22.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
-</g>
-<g class="combo combopos-3">
-<path d="M299,368 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-245" class="combo"/>
-<path d="M299,368 h69 a6.0,6.0 0 0 0 6.0,-6.0 v-44" class="combo"/>
-<rect rx="4" ry="4" x="284" y="353" width="30" height="30" class="combo"/>
-<text x="299" y="368" class="combo tap">Ctl+W</text>
 </g>
 </g>
-</g>
-<g transform="translate(0, 2019)" class="layer-Adjust">
+<g transform="translate(0, 1959)" class="layer-Adjust">
 <text x="0" y="0" class="label" id="Adjust">Adjust</text>
 <g transform="translate(0, 0)">
 <g transform="translate(32, 56)" class="key keypos-0">
@@ -1531,33 +1447,9 @@ path.combo {
 <g transform="translate(800, 232)" class="key keypos-45">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
 </g>
-<g class="combo combopos-0">
-<path d="M235,335 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-203" class="combo"/>
-<path d="M235,335 h69 a6.0,6.0 0 0 0 6.0,-6.0 v-31" class="combo"/>
-<rect rx="4" ry="4" x="220" y="320" width="30" height="30" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="224" y="324" height="22" width="22.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo combopos-1">
-<path d="M736,150 h-58 a6.0,6.0 0 0 1 -6.0,-6.0 v-18" class="combo"/>
-<path d="M736,150 h58 a6.0,6.0 0 0 0 6.0,-6.0 v-18" class="combo"/>
-<rect rx="4" ry="4" x="721" y="135" width="30" height="30" class="combo"/>
-<text x="736" y="150" class="combo tap"><tspan style="font-size: 62%">&amp;caps_w…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M768,185 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-54" class="combo"/>
-<path d="M768,185 h90 a6.0,6.0 0 0 0 6.0,-6.0 v-38" class="combo"/>
-<rect rx="4" ry="4" x="753" y="170" width="30" height="30" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="757" y="174" height="22" width="22.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
-</g>
-<g class="combo combopos-3">
-<path d="M299,368 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-245" class="combo"/>
-<path d="M299,368 h69 a6.0,6.0 0 0 0 6.0,-6.0 v-44" class="combo"/>
-<rect rx="4" ry="4" x="284" y="353" width="30" height="30" class="combo"/>
-<text x="299" y="368" class="combo tap">Ctl+W</text>
 </g>
 </g>
-</g>
-<g transform="translate(0, 2403)" class="layer-Mouse">
+<g transform="translate(0, 2329)" class="layer-Mouse">
 <text x="0" y="0" class="label" id="Mouse">Mouse</text>
 <g transform="translate(0, 0)">
 <g transform="translate(32, 56)" class="key keypos-0">
@@ -1724,33 +1616,9 @@ path.combo {
 <g transform="translate(800, 232)" class="key keypos-45">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
 </g>
-<g class="combo combopos-0">
-<path d="M235,335 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-203" class="combo"/>
-<path d="M235,335 h69 a6.0,6.0 0 0 0 6.0,-6.0 v-31" class="combo"/>
-<rect rx="4" ry="4" x="220" y="320" width="30" height="30" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="224" y="324" height="22" width="22.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo combopos-1">
-<path d="M736,150 h-58 a6.0,6.0 0 0 1 -6.0,-6.0 v-18" class="combo"/>
-<path d="M736,150 h58 a6.0,6.0 0 0 0 6.0,-6.0 v-18" class="combo"/>
-<rect rx="4" ry="4" x="721" y="135" width="30" height="30" class="combo"/>
-<text x="736" y="150" class="combo tap"><tspan style="font-size: 62%">&amp;caps_w…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M768,185 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-54" class="combo"/>
-<path d="M768,185 h90 a6.0,6.0 0 0 0 6.0,-6.0 v-38" class="combo"/>
-<rect rx="4" ry="4" x="753" y="170" width="30" height="30" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="757" y="174" height="22" width="22.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
-</g>
-<g class="combo combopos-3">
-<path d="M299,368 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-245" class="combo"/>
-<path d="M299,368 h69 a6.0,6.0 0 0 0 6.0,-6.0 v-44" class="combo"/>
-<rect rx="4" ry="4" x="284" y="353" width="30" height="30" class="combo"/>
-<text x="299" y="368" class="combo tap">Ctl+W</text>
 </g>
 </g>
-</g>
-<g transform="translate(0, 2786)" class="layer-Scroll">
+<g transform="translate(0, 2698)" class="layer-Scroll">
 <text x="0" y="0" class="label" id="Scroll">Scroll</text>
 <g transform="translate(0, 0)">
 <g transform="translate(32, 56)" class="key keypos-0">
@@ -1909,33 +1777,9 @@ path.combo {
 <g transform="translate(800, 232)" class="key keypos-45">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
 </g>
-<g class="combo combopos-0">
-<path d="M235,335 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-203" class="combo"/>
-<path d="M235,335 h69 a6.0,6.0 0 0 0 6.0,-6.0 v-31" class="combo"/>
-<rect rx="4" ry="4" x="220" y="320" width="30" height="30" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="224" y="324" height="22" width="22.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo combopos-1">
-<path d="M736,150 h-58 a6.0,6.0 0 0 1 -6.0,-6.0 v-18" class="combo"/>
-<path d="M736,150 h58 a6.0,6.0 0 0 0 6.0,-6.0 v-18" class="combo"/>
-<rect rx="4" ry="4" x="721" y="135" width="30" height="30" class="combo"/>
-<text x="736" y="150" class="combo tap"><tspan style="font-size: 62%">&amp;caps_w…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M768,185 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-54" class="combo"/>
-<path d="M768,185 h90 a6.0,6.0 0 0 0 6.0,-6.0 v-38" class="combo"/>
-<rect rx="4" ry="4" x="753" y="170" width="30" height="30" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="757" y="174" height="22" width="22.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
-</g>
-<g class="combo combopos-3">
-<path d="M299,368 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-245" class="combo"/>
-<path d="M299,368 h69 a6.0,6.0 0 0 0 6.0,-6.0 v-44" class="combo"/>
-<rect rx="4" ry="4" x="284" y="353" width="30" height="30" class="combo"/>
-<text x="299" y="368" class="combo tap">Ctl+W</text>
 </g>
 </g>
-</g>
-<g transform="translate(0, 3170)" class="layer-Sniper">
+<g transform="translate(0, 3068)" class="layer-Sniper">
 <text x="0" y="0" class="label" id="Sniper">Sniper</text>
 <g transform="translate(0, 0)">
 <g transform="translate(32, 56)" class="key keypos-0">
@@ -2093,30 +1937,6 @@ path.combo {
 </g>
 <g transform="translate(800, 232)" class="key keypos-45">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
-</g>
-<g class="combo combopos-0">
-<path d="M235,335 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-203" class="combo"/>
-<path d="M235,335 h69 a6.0,6.0 0 0 0 6.0,-6.0 v-31" class="combo"/>
-<rect rx="4" ry="4" x="220" y="320" width="30" height="30" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="224" y="324" height="22" width="22.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo combopos-1">
-<path d="M736,150 h-58 a6.0,6.0 0 0 1 -6.0,-6.0 v-18" class="combo"/>
-<path d="M736,150 h58 a6.0,6.0 0 0 0 6.0,-6.0 v-18" class="combo"/>
-<rect rx="4" ry="4" x="721" y="135" width="30" height="30" class="combo"/>
-<text x="736" y="150" class="combo tap"><tspan style="font-size: 62%">&amp;caps_w…</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M768,185 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-54" class="combo"/>
-<path d="M768,185 h90 a6.0,6.0 0 0 0 6.0,-6.0 v-38" class="combo"/>
-<rect rx="4" ry="4" x="753" y="170" width="30" height="30" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="757" y="174" height="22" width="22.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
-</g>
-<g class="combo combopos-3">
-<path d="M299,368 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-245" class="combo"/>
-<path d="M299,368 h69 a6.0,6.0 0 0 0 6.0,-6.0 v-44" class="combo"/>
-<rect rx="4" ry="4" x="284" y="353" width="30" height="30" class="combo"/>
-<text x="299" y="368" class="combo tap">Ctl+W</text>
 </g>
 </g>
 </g>
