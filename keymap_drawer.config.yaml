@@ -37,6 +37,7 @@ parse_config:
     "&en SEMICOLON":    {tap: ";", hold: en}
     "&en COLON":        {tap: ":", hold: en}
     "&en COMMA":        {tap: ",", hold: en}
+    "&en CARET":        {tap: "^", hold: en}
     "&en DOT":          {tap: ".", hold: en}
     "&en LS(LC(V))":    {tap: "Sft+Ctl+V", hold: en}
     "&en LS(LC(C))":    {tap: "Sft+Ctl+C", hold: en}
