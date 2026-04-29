@@ -382,35 +382,61 @@ combos:
 - p: [3, 4]
   k: '&layer_en'
   l: [Ru]
+  a: top
+  o: 0.2
 - p: [4, 3]
   k: '&layer_ru'
   l: [Base]
+  a: top
+  o: 0.2
 - p: [39, 16]
   k: Ctl+SPACE
   l: [Ru, Base]
+  a: bottom
+  o: 0.8
 - p: [28, 25]
   k: '&en LS(LC(V))'
   l: [Ru]
+  a: bottom
+  o: 0.3
 - p: [25, 28]
   k: Sft+Ctl+V
   l: [Base]
+  a: bottom
+  o: 0.3
 - p: [25, 27]
   k: '&en LS(LC(C))'
   l: [Ru]
+  a: bottom
+  o: 0.5
 - p: [25, 27]
   k: Sft+Ctl+C
   l: [Base]
+  a: bottom
+  o: 0.5
 - p: [14, 38]
   k: Alt+TAB
+  a: bottom
+  o: 0.4
 - p: [19, 21]
   k: '&caps_word'
+  a: bottom
+  o: 0.2
 - p: [19, 22]
   k: CAPSLOCK
+  a: bottom
+  o: 0.5
 - p: [15, 39]
   k: Ctl+W
+  a: bottom
+  o: 0.6
 - p: [8, 7]
   k: Х
   l: [Ru]
+  a: top
+  o: 0.2
 - p: [9, 8]
   k: Ъ
   l: [Ru]
+  a: top
+  o: 0.5
