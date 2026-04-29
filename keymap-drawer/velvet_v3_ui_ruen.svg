@@ -45,6 +45,15 @@
 <svg id="mdi:bluetooth-off">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-off" viewBox="0 0 24 24"><path d="M13,5.83L14.88,7.71L13.28,9.31L14.69,10.72L17.71,7.7L12,2H11V7.03L13,9.03M5.41,4L4,5.41L10.59,12L5,17.59L6.41,19L11,14.41V22H12L16.29,17.71L18.59,20L20,18.59M13,18.17V14.41L14.88,16.29" /></svg>
 </svg>
+<svg id="mdi:caps-lock">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-caps-lock" viewBox="0 0 24 24"><path d="M9.96,13.71L12,8.29L14.03,13.72M11.14,6L6.43,18H8.36L9.32,15.43H14.68L15.64,18H17.57L12.86,6H11.14M20,2H4C2.89,2 2,2.89 2,4V20C2,21.11 2.9,22 4,22H20C21.11,22 22,21.11 22,20V4C22,2.89 21.1,2 20,2M20,20H4V4H20V20Z" /></svg>
+</svg>
+<svg id="mdi:content-copy">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-content-copy" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z" /></svg>
+</svg>
+<svg id="mdi:content-paste">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-content-paste" viewBox="0 0 24 24"><path d="M19,20H5V4H7V7H17V4H19M12,2A1,1 0 0,1 13,3A1,1 0 0,1 12,4A1,1 0 0,1 11,3A1,1 0 0,1 12,2M19,2H14.82C14.4,0.84 13.3,0 12,0C10.7,0 9.6,0.84 9.18,2H5A2,2 0 0,0 3,4V20A2,2 0 0,0 5,22H19A2,2 0 0,0 21,20V4A2,2 0 0,0 19,2Z" /></svg>
+</svg>
 <svg id="mdi:keyboard-esc">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-esc" viewBox="0 0 24 24"><path d="M1 7H7V9H3V11H7V13H3V15H7V17H1V7M11 7H15V9H11V11H13C14.11 11 15 11.9 15 13V15C15 16.11 14.11 17 13 17H9V15H13V13H11C9.9 13 9 12.11 9 11V9C9 7.9 9.9 7 11 7M19 7H21C22.11 7 23 7.9 23 9V10H21V9H19V15H21V14H23V15C23 16.11 22.11 17 21 17H19C17.9 17 17 16.11 17 15V9C17 7.9 17.9 7 19 7Z" /></svg>
 </svg>
@@ -89,6 +98,9 @@
 </svg>
 <svg id="mdi:transfer-up">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-transfer-up" viewBox="0 0 24 24"><path d="M8,21V19H16V21H8M8,17V15H16V17H8M8,13V11H16V13H8M19,9H5L12,2L19,9Z" /></svg>
+</svg>
+<svg id="mdi:translate">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-translate" viewBox="0 0 24 24"><path d="M12.87,15.07L10.33,12.56L10.36,12.53C12.1,10.59 13.34,8.36 14.07,6H17V4H10V2H8V4H1V6H12.17C11.5,7.92 10.44,9.75 9,11.35C8.07,10.32 7.3,9.19 6.69,8H4.69C5.42,9.63 6.42,11.17 7.67,12.56L2.58,17.58L4,19L9,14L12.11,17.11L12.87,15.07M18.5,10H16.5L12,22H14L15.12,19H19.87L21,22H23L18.5,10M15.88,17L17.5,12.67L19.12,17H15.88Z" /></svg>
 </svg>
 <svg id="mdi:volume-high">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-high" viewBox="0 0 24 24"><path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" /></svg>
@@ -453,7 +465,8 @@ path.combo {
 <path d="M256,-14 h26 a6.0,6.0 0 0 1 6.0,6.0 v26" class="combo"/>
 <path d="M256,-14 h-26 a6.0,6.0 0 0 0 -6.0,6.0 v18" class="combo"/>
 <rect rx="4" ry="4" x="241" y="-29" width="30" height="30" class="combo"/>
-<text x="256" y="-14" class="combo tap"><tspan style="font-size: 62%">&amp;layer_…</tspan></text>
+<use href="#mdi:translate" xlink:href="#mdi:translate" x="245" y="-25" height="22" width="22.0" class="combo tap glyph mdi:translate"/>
+<text x="256" y="-3" class="combo hold">ru</text>
 </g>
 <g class="combo combopos-1">
 <path d="M331,201 l34,77" class="combo"/>
@@ -465,17 +478,13 @@ path.combo {
 <path d="M192,249 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-38" class="combo"/>
 <path d="M192,249 h90 a6.0,6.0 0 0 0 6.0,-6.0 v-54" class="combo"/>
 <rect rx="4" ry="4" x="177" y="234" width="30" height="30" class="combo"/>
-<text x="192" y="249" class="combo tap">
-<tspan x="192" dy="-0.5em">Sft+</tspan><tspan x="192" dy="1.0em">Ctl+V</tspan>
-</text>
+<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="181" y="238" height="22" width="22.0" class="combo tap glyph mdi:content-paste"/>
 </g>
 <g class="combo combopos-3">
 <path d="M160,217 h-58 a6.0,6.0 0 0 1 -6.0,-6.0 v-6" class="combo"/>
 <path d="M160,217 h58 a6.0,6.0 0 0 0 6.0,-6.0 v-30" class="combo"/>
 <rect rx="4" ry="4" x="145" y="202" width="30" height="30" class="combo"/>
-<text x="160" y="217" class="combo tap">
-<tspan x="160" dy="-0.5em">Sft+</tspan><tspan x="160" dy="1.0em">Ctl+C</tspan>
-</text>
+<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="149" y="206" height="22" width="22.0" class="combo tap glyph mdi:content-copy"/>
 </g>
 <g class="combo combopos-4">
 <path d="M235,190 l-61,-70" class="combo"/>
@@ -487,7 +496,7 @@ path.combo {
 <path d="M736,58 h-58 a6.0,6.0 0 0 0 -6.0,6.0 v18" class="combo"/>
 <path d="M736,58 h58 a6.0,6.0 0 0 1 6.0,6.0 v18" class="combo"/>
 <rect rx="4" ry="4" x="721" y="43" width="30" height="30" class="combo"/>
-<text x="736" y="58" class="combo tap"><tspan style="font-size: 62%">&amp;caps_w…</tspan></text>
+<use href="#mdi:caps-lock" xlink:href="#mdi:caps-lock" x="725" y="47" height="22" width="22.0" class="combo tap glyph mdi:caps-lock"/>
 </g>
 <g class="combo combopos-6">
 <path d="M768,153 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-22" class="combo"/>
@@ -695,7 +704,8 @@ path.combo {
 <path d="M256,-14 h-26 a6.0,6.0 0 0 0 -6.0,6.0 v18" class="combo"/>
 <path d="M256,-14 h26 a6.0,6.0 0 0 1 6.0,6.0 v26" class="combo"/>
 <rect rx="4" ry="4" x="241" y="-29" width="30" height="30" class="combo"/>
-<text x="256" y="-14" class="combo tap"><tspan style="font-size: 62%">&amp;layer_…</tspan></text>
+<use href="#mdi:translate" xlink:href="#mdi:translate" x="245" y="-25" height="22" width="22.0" class="combo tap glyph mdi:translate"/>
+<text x="256" y="-3" class="combo hold">en</text>
 </g>
 <g class="combo combopos-1">
 <path d="M331,201 l34,77" class="combo"/>
@@ -707,18 +717,14 @@ path.combo {
 <path d="M192,249 h90 a6.0,6.0 0 0 0 6.0,-6.0 v-54" class="combo"/>
 <path d="M192,249 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-38" class="combo"/>
 <rect rx="4" ry="4" x="177" y="234" width="30" height="30" class="combo"/>
-<text x="192" y="249" class="combo tap">
-<tspan x="192" dy="-0.5em">Sft+</tspan><tspan x="192" dy="1.0em">Ctl+V</tspan>
-</text>
+<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="181" y="238" height="22" width="22.0" class="combo tap glyph mdi:content-paste"/>
 <text x="192" y="260" class="combo hold">en</text>
 </g>
 <g class="combo combopos-3">
 <path d="M160,217 h-58 a6.0,6.0 0 0 1 -6.0,-6.0 v-6" class="combo"/>
 <path d="M160,217 h58 a6.0,6.0 0 0 0 6.0,-6.0 v-30" class="combo"/>
 <rect rx="4" ry="4" x="145" y="202" width="30" height="30" class="combo"/>
-<text x="160" y="217" class="combo tap">
-<tspan x="160" dy="-0.5em">Sft+</tspan><tspan x="160" dy="1.0em">Ctl+C</tspan>
-</text>
+<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="149" y="206" height="22" width="22.0" class="combo tap glyph mdi:content-copy"/>
 <text x="160" y="228" class="combo hold">en</text>
 </g>
 <g class="combo combopos-4">
@@ -731,7 +737,7 @@ path.combo {
 <path d="M736,58 h-58 a6.0,6.0 0 0 0 -6.0,6.0 v18" class="combo"/>
 <path d="M736,58 h58 a6.0,6.0 0 0 1 6.0,6.0 v18" class="combo"/>
 <rect rx="4" ry="4" x="721" y="43" width="30" height="30" class="combo"/>
-<text x="736" y="58" class="combo tap"><tspan style="font-size: 62%">&amp;caps_w…</tspan></text>
+<use href="#mdi:caps-lock" xlink:href="#mdi:caps-lock" x="725" y="47" height="22" width="22.0" class="combo tap glyph mdi:caps-lock"/>
 </g>
 <g class="combo combopos-6">
 <path d="M768,153 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-22" class="combo"/>
