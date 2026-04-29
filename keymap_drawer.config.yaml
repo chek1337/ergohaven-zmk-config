@@ -6,17 +6,15 @@ parse_config:
   zmk_combos:
     cmben: {align: top, offset: 0.2}
     cmbru: {align: top, offset: 0.2}
-    russian_ha: {align: top, offset: 0.2}
-    russian_tverd_znak: {align: top, offset: 0.5}
-    capslock_one_word: {align: bottom, offset: 0.2}
-    caps: {align: bottom, offset: 0.5}
+    capslock_one_word: {align: top, offset: 0.2}
+    caps: {align: bottom, offset: 0.2}
     alt_tab: {align: bottom, offset: 0.4}
     window_mode_nvim: {align: bottom, offset: 0.6}
-    tmux_focus: {align: bottom, offset: 0.8}
-    ctrl_shift_v_ru: {align: bottom, offset: 0.3}
-    ctrl_shift_v_en: {align: bottom, offset: 0.3}
-    ctrl_shift_c_ru: {align: bottom, offset: 0.5}
-    ctrl_shift_c_en: {align: bottom, offset: 0.5}
+    tmux_focus: {align: bottom, offset: 0.9}
+    ctrl_shift_v_ru: {align: top, offset: 0.2}
+    ctrl_shift_v_en: {align: top, offset: 0.2}
+    ctrl_shift_c_ru: {align: top, offset: 0.5}
+    ctrl_shift_c_en: {align: top, offset: 0.5}
 
   raw_binding_map:
     "&bootloader": {tap: $$mdi:progress-download$$}
@@ -147,6 +145,10 @@ parse_config:
     GREATER_THAN: ">"
     LEFT_BRACE: "{"
     RIGHT_BRACE: "}"
+    COLON: ":" 
+    SEMICOLON:
+      tap: ";"
+      shifted: ":"
 
 draw_config:
   draw_key_sides: false
