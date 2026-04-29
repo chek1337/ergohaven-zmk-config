@@ -150,7 +150,7 @@ svg.keymap {
 
     --color--combo--bg: var(--color--material--blue-gray--100);
     --color--combo--border: var(--color--combo--bg);
-    --color--combo--dendron: var(--color--combo--border);
+    --color--combo--dendron: var(--color--material--blue-gray--400);
     --color--combo--text--tap: var(--color--material--blue-gray--800);
     --color--combo--text--shifted: var(--color--material--blue-gray--400);
     --color--combo--text--hold: var(--color--combo--text--tap);
@@ -254,12 +254,10 @@ rect.combo {
   stroke-width: 0;
 }
 path.combo {
-  stroke-width: 3;
+  stroke-width: 1;
   stroke: var(--color--combo--dendron);
   fill: none;
-  filter: drop-shadow(0 0 2px black)
-          drop-shadow(0 0 2px black)
-          drop-shadow(0 0 2px black);
+  opacity: 0.5;
 }
 .combo.tap {
   font-size: 14px;
