@@ -219,7 +219,7 @@
                           &none              &none                &kp TAB         &kp SPACE  &mo 6    &mo 2  &mo 4  &none           &none                 &none
             >;
 
-            display-name = "Base";
+            display-name = "En";
         };
 
         ru {
@@ -240,11 +240,11 @@
                       &none          &none             &kp SEMI       &kp COLON         &mo 7    &none  &none      &none      &none             &none
             >;
 
-            display-name = "Symbols";
+            display-name = "SymEn";
         };
 
         sym_ru {
-            display-name = "Symbols";
+            display-name = "SymRu";
             bindings = <
 &none  &en GRAVE         &en LESS_THAN  &en GREATER_THAN  &kp RU_DQT     &en SQT                     &en TILDE     &en AT      &en LEFT_BRACE  &en RIGHT_BRACE  &en HASH      &none
 &none  &kp EXCL          &kp RU_FSLH    &kp MINUS         &kp EQUAL      &en PIPE                    &kp PRCNT     &kp UNDER   &kp LPAR        &kp RPAR         &kp RU_QMARK  &none
@@ -254,7 +254,7 @@
         };
 
         additional_nav_en {
-            display-name = "AddNav";
+            display-name = "NumNavEn";
             bindings = <
 &none  &kp NUMBER_9   &kp NUMBER_8  &kp NUMBER_7  &kp NUMBER_6  &kp N5                           &none      &kp RS(ENTER)  &kp RC(DELETE)      &kp DELETE                 &kp PRINTSCREEN  &none
 &none  &kp NUMBER_4   &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0                     &none      &kp ENTER      &kp RC(BSPC)        &kp BSPC                   &kp ESCAPE       &none
@@ -264,7 +264,7 @@
         };
 
         additional_nav_ru {
-            display-name = "AddNav";
+            display-name = "NumNavRu";
             bindings = <
 &none  &kp NUMBER_9   &kp NUMBER_8  &kp NUMBER_7  &kp NUMBER_6  &kp N5                           &none      &kp RS(ENTER)  &kp RC(DELETE)      &kp DELETE                 &kp PRINTSCREEN  &none
 &none  &kp NUMBER_4   &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0                     &none      &kp ENTER      &kp RC(BSPC)        &kp BSPC                   &kp ESCAPE       &none
@@ -281,7 +281,7 @@
                &none    &none    &none    &none  &none    &mo 7  &none     &none     &none   &none
             >;
 
-            display-name = "Nav";
+            display-name = "ArrowsFs";
         };
 
         adj {
@@ -292,7 +292,7 @@
                     &none  &none  &none  &none  &none    &none  &none         &none         &none             &none
             >;
 
-            display-name = "Adjust";
+            display-name = "Control";
         };
 
         mouse {
