@@ -126,10 +126,12 @@
             key-positions = <14 38>;
         };
 
+#ifndef KEYMAP_DRAWER
         first_capital_letter {
             bindings = <&skq RIGHT_SHIFT>;
             key-positions = <>;
         };
+#endif
 
         capslock_one_word {
             bindings = <&caps_word>;
