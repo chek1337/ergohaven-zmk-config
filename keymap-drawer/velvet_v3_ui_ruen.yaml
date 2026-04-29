@@ -143,23 +143,23 @@ layers:
   - ''
   SymRu:
   - ''
-  - '&en GRAVE'
-  - '&en LESS_THAN'
-  - '&en GREATER_THAN'
+  - {t: '`', h: en}
+  - {t: <, h: en}
+  - {t: '>', h: en}
   - '"'
-  - '&en SQT'
-  - '&en TILDE'
-  - '&en AMPERSAND'
-  - '&en LEFT_BRACE'
-  - '&en RIGHT_BRACE'
-  - '&en HASH'
+  - {t: '''', h: en}
+  - {t: '~', h: en}
+  - {t: '&', h: en}
+  - {t: '{', h: en}
+  - {t: '}', h: en}
+  - {t: '#', h: en}
   - ''
   - ''
   - '!'
   - /
   - '-'
   - '='
-  - '&en PIPE'
+  - {t: '|', h: en}
   - '%'
   - _
   - (
@@ -170,18 +170,18 @@ layers:
   - \
   - '*'
   - +
-  - '&en AT'
-  - '&en DOLLAR'
+  - {t: '@', h: en}
+  - {t: $, h: en}
   - ','
   - .
-  - '&en LBKT'
-  - '&en RBKT'
+  - {t: '[', h: en}
+  - {t: ']', h: en}
   - ^
   - ''
   - ''
   - ''
   - {t: ;, s: ':'}
-  - '&en COLON'
+  - {t: ':', h: en}
   - Control
   - {type: held}
   - ''
@@ -266,8 +266,8 @@ layers:
   - $$mdi:arrow-collapse-left$$
   - $$mdi:arrow-collapse-right$$
   - ''
-  - '&en COMMA'
-  - '&en DOT'
+  - {t: ',', h: en}
+  - {t: ., h: en}
   - Х
   - Ъ
   - ''
@@ -487,7 +487,7 @@ combos:
   k: Ctl+$$mdi:keyboard-space$$
   l: [Ru, En]
 - p: [28, 25]
-  k: '&en LS(LC(V))'
+  k: {t: Sft+Ctl+V, h: en}
   l: [Ru]
   a: bottom
   o: 0.5
@@ -497,7 +497,7 @@ combos:
   a: bottom
   o: 0.5
 - p: [25, 27]
-  k: '&en LS(LC(C))'
+  k: {t: Sft+Ctl+C, h: en}
   l: [Ru]
   a: bottom
 - p: [25, 27]
