@@ -320,7 +320,9 @@ draw_config:
       stroke-width: 3;
       stroke: var(--color--combo--dendron);
       fill: none;
-      filter: drop-shadow(0 0 8px red);
+      filter: drop-shadow(0 0 2px black)
+              drop-shadow(0 0 2px black)
+              drop-shadow(0 0 2px black);
     }
     .combo.tap {
       font-size: 14px;
