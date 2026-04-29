@@ -481,10 +481,10 @@ path.combo {
 <text x="736" y="58" class="combo tap"><tspan style="font-size: 62%">&amp;caps_w…</tspan></text>
 </g>
 <g class="combo combopos-6">
-<path d="M768,154 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-23" class="combo"/>
-<path d="M768,154 h90 a6.0,6.0 0 0 0 6.0,-6.0 v-7" class="combo"/>
-<rect rx="4" ry="4" x="753" y="139" width="30" height="30" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="757" y="143" height="22" width="22.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
+<path d="M768,153 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-22" class="combo"/>
+<path d="M768,153 h90 a6.0,6.0 0 0 0 6.0,-6.0 v-6" class="combo"/>
+<rect rx="4" ry="4" x="753" y="138" width="30" height="30" class="combo"/>
+<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="757" y="142" height="22" width="22.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
 <g class="combo combopos-7">
 <path d="M299,365 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-242" class="combo"/>
@@ -723,10 +723,10 @@ path.combo {
 <text x="736" y="58" class="combo tap"><tspan style="font-size: 62%">&amp;caps_w…</tspan></text>
 </g>
 <g class="combo combopos-6">
-<path d="M768,154 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-23" class="combo"/>
-<path d="M768,154 h90 a6.0,6.0 0 0 0 6.0,-6.0 v-7" class="combo"/>
-<rect rx="4" ry="4" x="753" y="139" width="30" height="30" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="757" y="143" height="22" width="22.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
+<path d="M768,153 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-22" class="combo"/>
+<path d="M768,153 h90 a6.0,6.0 0 0 0 6.0,-6.0 v-6" class="combo"/>
+<rect rx="4" ry="4" x="753" y="138" width="30" height="30" class="combo"/>
+<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="757" y="142" height="22" width="22.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
 <g class="combo combopos-7">
 <path d="M299,365 h-69 a6.0,6.0 0 0 1 -6.0,-6.0 v-242" class="combo"/>

@@ -522,7 +522,6 @@ combos:
   k: $$mdi:apple-keyboard-caps$$
   l: [En, Ru]
   a: bottom
-  o: 0.02
 - p: [15, 39]
   k: Ctl+W
   l: [En, Ru]
