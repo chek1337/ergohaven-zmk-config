@@ -239,10 +239,10 @@
 
         nav {
             bindings = <
-&none  &none  &none  &none  &none      &caps_word                  &none     &none     &none   &none      &none  &none
-&none  &none  &none  &none  &kp ENTER  &none                       &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none
-&none  &none  &none  &none  &none      &none                       &none     &none     &none   &none      &none  &none
-              &none  &none  &none      &none       &none    &mo 5  &none     &none     &none   &none
+&none  &kp F1  &kp F2   &kp F3   &kp F4   &none                  &none     &none     &none   &none      &none  &none
+&none  &kp F5  &kp F6   &kp F7   &kp F8   &none                  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none
+&none  &kp F9  &kp F10  &kp F11  &kp F12  &none                  &none     &none     &none   &none      &none  &none
+               &none    &none    &none    &none  &none    &mo 5  &none     &none     &none   &none
             >;
 
             display-name = "Nav";
@@ -315,10 +315,10 @@
 
         additional_nav {
             bindings = <
-&none  &kp PAGE_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp HOME                      &caps_word  &kp RS(ENTER)  &kp RC(DELETE)      &kp DELETE                 &none       &none
-&none  &kp PAGE_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp END                       &none       &kp ENTER      &kp RC(BSPC)        &kp BSPC                   &kp ESCAPE  &none
-&none  &none          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0                  &en COMMA   &en DOT        &kp RU_CYRILLIC_HA  &kp RU_CYRILLIC_HARD_SIGN  &none       &none
-                      &none         &none         &none         &caps_word    &none    &none  &none       &none          &none               &none
+&none  &kp PAGE_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp HOME                         &caps_word  &kp RS(ENTER)  &kp RC(DELETE)      &kp DELETE                 &none       &none
+&none  &kp PAGE_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp END                          &none       &kp ENTER      &kp RC(BSPC)        &kp BSPC                   &kp ESCAPE  &none
+&none  &none          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0                     &en COMMA   &en DOT        &kp RU_CYRILLIC_HA  &kp RU_CYRILLIC_HARD_SIGN  &none       &none
+                      &none         &none         &none         &skq LEFT_SHIFT  &none    &none  &none       &none          &none               &none
             >;
         };
 
