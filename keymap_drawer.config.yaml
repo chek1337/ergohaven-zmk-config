@@ -317,9 +317,10 @@ draw_config:
       stroke-width: 0;
     }
     path.combo {
-      stroke-width: 1;
+      stroke-width: 3;
       stroke: var(--color--combo--dendron);
       fill: none;
+      filter: drop-shadow(0 0 2px var(--color--material--blue-gray--500));
     }
     .combo.tap {
       font-size: 14px;
