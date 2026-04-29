@@ -261,10 +261,10 @@
         additional_nav_en {
             display-name = "AddNav";
             bindings = <
-&none  &kp NUMBER_9   &kp NUMBER_8  &kp NUMBER_7  &kp NUMBER_6  &kp N5                           &none      &kp RS(ENTER)  &kp RC(DELETE)      &kp DELETE                 &kp PRINTSCREEN  &none
-&none  &kp NUMBER_4   &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0                     &none      &kp ENTER      &kp RC(BSPC)        &kp BSPC                   &kp ESCAPE       &none
-&none  &kp PAGE_DOWN  &kp PG_UP     &kp HOME      &kp END       &none                            &en COMMA  &en DOT        &kp RU_CYRILLIC_HA  &kp RU_CYRILLIC_HARD_SIGN  &none            &none
-                      &none         &none         &none         &skq LEFT_SHIFT  &none    &none  &none      &none          &none               &none
+&none  &kp NUMBER_9   &kp NUMBER_8  &kp NUMBER_7  &kp NUMBER_6  &kp N5                           &none      &kp RS(ENTER)  &kp RC(DELETE)    &kp DELETE         &kp PRINTSCREEN  &none
+&none  &kp NUMBER_4   &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0                     &none      &kp ENTER      &kp RC(BSPC)      &kp BSPC           &kp ESCAPE       &none
+&none  &kp PAGE_DOWN  &kp PG_UP     &kp HOME      &kp END       &none                            &kp COMMA  &kp DOT        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none            &none
+                      &none         &none         &none         &skq LEFT_SHIFT  &none    &none  &none      &none          &none             &none
             >;
         };
 
@@ -302,10 +302,10 @@
 
         mouse {
             bindings = <
-&none  &none  &none     &none     &none     &none                  &none  &none     &none     &none     &none  &none
-&none  &mo 9  &mkp MB3  &mkp MB2  &mkp MB1  &none                  &none  &mkp MB1  &mkp MB2  &mkp MB3  &mo 9  &none
-&none  &mo 10 &none     &none     &none     &none                  &none  &none     &none     &none     &mo 10 &none
-              &none     &none     &none     &none  &none    &none  &none  &none     &none     &none
+&none  &none   &none     &none     &none     &none                  &none  &none     &none     &none     &none   &none
+&none  &mo 9   &mkp MB3  &mkp MB2  &mkp MB1  &none                  &none  &mkp MB1  &mkp MB2  &mkp MB3  &mo 9   &none
+&none  &mo 10  &none     &none     &none     &none                  &none  &none     &none     &none     &mo 10  &none
+               &none     &none     &none     &none  &none    &none  &none  &none     &none     &none
             >;
 
             display-name = "Mouse";
