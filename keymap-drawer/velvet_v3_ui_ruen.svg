@@ -500,17 +500,13 @@ path.combo {
 <path d="M192,249 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-38" class="combo"/>
 <path d="M192,249 h90 a6.0,6.0 0 0 0 6.0,-6.0 v-54" class="combo"/>
 <rect rx="4" ry="4" x="172" y="229" width="40" height="40" class="combo"/>
-<text x="192" y="249" class="combo tap">
-<tspan x="192" dy="-0.5em">Sft+</tspan><tspan x="192" dy="1.0em">Ctl+V</tspan>
-</text>
+<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="181" y="238" height="22" width="22.0" class="combo tap glyph mdi:content-paste"/>
 </g>
 <g class="combo combopos-3">
 <path d="M160,217 h-58 a6.0,6.0 0 0 1 -6.0,-6.0 v-6" class="combo"/>
 <path d="M160,217 h58 a6.0,6.0 0 0 0 6.0,-6.0 v-30" class="combo"/>
 <rect rx="4" ry="4" x="140" y="197" width="40" height="40" class="combo"/>
-<text x="160" y="217" class="combo tap">
-<tspan x="160" dy="-0.5em">Sft+</tspan><tspan x="160" dy="1.0em">Ctl+C</tspan>
-</text>
+<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="149" y="206" height="22" width="22.0" class="combo tap glyph mdi:content-copy"/>
 </g>
 <g class="combo combopos-4">
 <path d="M235,190 l-61,-70" class="combo"/>
