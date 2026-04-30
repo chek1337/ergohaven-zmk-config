@@ -330,10 +330,10 @@
 
         en_gallium {
             bindings = <
-&trans  &kp B              &kp L          &kp D            &kp C           &kp V                     &kp J   &kp Y           &kp O            &kp U          &trans              &trans
-&trans  &hmr_l LEFT_GUI N  &hmr_l LALT R  &hmr_l LSHIFT T  &hmr_l LCTRL S  &kp G                     &kp P   &hmr_r RCTRL H  &hmr_r RSHIFT A  &hmr_r RALT E  &hmr_r RIGHT_GUI I  &trans
-&trans  &kp X              &kp Q          &kp M            &kp W           &kp Z                     &kp K   &kp F           &kp LBKT         &kp RBKT       &trans              &to 0
-                           &trans         &trans           &trans          &trans  &trans    &trans  &trans  &trans          &trans           &trans
+&none  &kp B              &kp L          &kp D            &kp C           &kp V                      &kp J  &kp Y           &kp O            &kp U          &none               &none
+&none  &hmr_l LEFT_GUI N  &hmr_l LALT R  &hmr_l LSHIFT T  &hmr_l LCTRL S  &kp G                      &kp P  &hmr_r RCTRL H  &hmr_r RSHIFT A  &hmr_r RALT E  &hmr_r RIGHT_GUI I  &none
+&none  &kp X              &kp Q          &kp M            &kp W           &kp Z                      &kp K  &kp F           &kp LBKT         &kp RBKT       &none               &to 0
+                          &none          &none            &kp TAB         &kp SPACE  &mo 6    &mo 2  &mo 4  &none           &none            &none
             >;
         };
     };
