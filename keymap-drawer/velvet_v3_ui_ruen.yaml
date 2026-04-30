@@ -196,8 +196,8 @@ layers:
   - '6'
   - '5'
   - {type: ghost}
-  - Sft+$$mdi:keyboard-return$$
-  - Ctl+$$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:printer$$
   - {type: ghost}
@@ -209,7 +209,7 @@ layers:
   - '0'
   - {type: ghost}
   - $$mdi:keyboard-return$$
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
   - {type: ghost}
@@ -243,8 +243,8 @@ layers:
   - '6'
   - '5'
   - {type: ghost}
-  - Sft+$$mdi:keyboard-return$$
-  - Ctl+$$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:printer$$
   - {type: ghost}
@@ -256,7 +256,7 @@ layers:
   - '0'
   - {type: ghost}
   - $$mdi:keyboard-return$$
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
   - {type: ghost}
@@ -529,7 +529,7 @@ combos:
   a: top
   o: 0.2
 - p: [39, 16]
-  k: Ctl+$$mdi:keyboard-space$$
+  k: {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   l: [Ru, En]
 - p: [28, 25]
   k: {t: '$$mdi:content-paste$$', h: en}
@@ -537,7 +537,7 @@ combos:
   a: bottom
   o: 0.5
 - p: [25, 28]
-  k: $$mdi:content-paste$$
+  k: {t: '$$mdi:content-paste$$', h: '$$mdi:apple-keyboard-shift$$'}
   l: [En]
   a: bottom
   o: 0.5
@@ -546,11 +546,11 @@ combos:
   l: [Ru]
   a: bottom
 - p: [25, 27]
-  k: $$mdi:content-copy$$
+  k: {t: '$$mdi:content-copy$$', h: '$$mdi:apple-keyboard-shift$$'}
   l: [En]
   a: bottom
 - p: [14, 38]
-  k: Alt+$$mdi:keyboard-tab$$
+  k: {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   l: [En, Ru]
 - p: [19, 21]
   k: $$mdi:caps-lock$$
@@ -562,5 +562,5 @@ combos:
   l: [En, Ru]
   a: bottom
 - p: [15, 39]
-  k: Ctl+W
+  k: {t: W, h: '$$mdi:apple-keyboard-control$$'}
   l: [En, Ru]
