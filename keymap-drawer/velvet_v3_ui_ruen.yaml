@@ -553,7 +553,7 @@ layers:
   - '['
   - ']'
   - {type: ghost}
-  - {t: En, h: toggle}
+  - {t: en_gallium, h: toggle}
   - {type: ghost}
   - {type: ghost}
   - $$mdi:keyboard-tab$$

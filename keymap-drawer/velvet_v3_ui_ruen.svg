@@ -2409,8 +2409,8 @@ path.combo {
 </g>
 <g transform="translate(928, 184)" class="key keypos-35">
 <rect rx="4" ry="4" x="-30" y="-30" width="60" height="60" class="key"/>
-<a href="#En">
-<text x="0" y="0" class="key tap layer-activator">En</text>
+<a href="#en_gallium">
+<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 62%">en_gall…</tspan></text>
 </a><text x="0" y="26" class="key hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g transform="translate(160, 232)" class="key ghost keypos-36">
