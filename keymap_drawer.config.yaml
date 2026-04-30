@@ -195,8 +195,8 @@ draw_config:
 
   line_spacing: 1
 
-  combo_w: 32
-  combo_h: 32
+  combo_w: 26
+  combo_h: 26
 
   small_pad: 4
 
@@ -361,41 +361,47 @@ draw_config:
       opacity: 0.5;
     }
     .combo.tap {
-      font-size: 14px;
+      font-size: 11px;
     }
     .combo.shifted,
     .combo.hold {
-      font-size: 11px;
+      font-size: 8px;
     }
-    /* shrink hold/shifted glyphs inside combos (16px → 12px), keeping center */
+    /* shrink tap glyph inside combos (22px → ~13px) */
+    .combo.tap.glyph {
+        transform: scale(0.6);
+        transform-origin: center;
+        transform-box: fill-box;
+    }
+    /* shrink hold/shifted glyphs inside combos (16px → ~8px), keeping center */
     .combo.hold.glyph,
     .combo.shifted.glyph {
-        transform: scale(0.75);
+        transform: scale(0.5);
         transform-origin: center;
         transform-box: fill-box;
     }
     /* default (fallback for new combos): center-bottom / center-top */
-    .combo.shifted { translate: 0 -10px; }
-    .combo.hold    { translate: 0 10px; }
+    .combo.shifted { translate: 0 -8px; }
+    .combo.hold    { translate: 0 8px; }
 
     /* left-half combos: corner-left (mirror of home-row left side) */
     .combopos-0 .hold, .combopos-1 .hold, .combopos-2 .hold,
     .combopos-3 .hold, .combopos-4 .hold, .combopos-5 .hold,
     .combopos-6 .hold, .combopos-7 .hold, .combopos-10 .hold {
-        translate: -9px 4px;
+        translate: -8px 4px;
     }
     .combopos-0 .shifted, .combopos-1 .shifted, .combopos-2 .shifted,
     .combopos-3 .shifted, .combopos-4 .shifted, .combopos-5 .shifted,
     .combopos-6 .shifted, .combopos-7 .shifted, .combopos-10 .shifted {
-        translate: -9px -2px;
+        translate: -8px -2px;
     }
 
     /* right-half combos: corner-right */
     .combopos-8 .hold, .combopos-9 .hold {
-        translate: 9px 4px;
+        translate: 8px 4px;
     }
     .combopos-8 .shifted, .combopos-9 .shifted {
-        translate: 9px -2px;
+        translate: 8px -2px;
     }
 
     .trans,
