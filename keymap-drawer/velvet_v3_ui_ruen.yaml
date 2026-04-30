@@ -1,5 +1,52 @@
 layout: {zmk_keyboard: velvet_v3_ui_ruen}
 layers:
+  en_gallium:
+  - {type: ghost}
+  - B
+  - L
+  - D
+  - C
+  - V
+  - J
+  - Y
+  - O
+  - U
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - G
+  - P
+  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: RALT}
+  - {t: I, h: '$$mdi:apple-keyboard-command$$'}
+  - {type: ghost}
+  - {type: ghost}
+  - X
+  - Q
+  - M
+  - W
+  - Z
+  - K
+  - F
+  - '['
+  - ']'
+  - {type: ghost}
+  - {t: en_gallium, h: toggle}
+  - {type: ghost}
+  - {type: ghost}
+  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-space$$
+  - ArrowsFs
+  - SymEn
+  - NumNavEn
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   En:
   - {type: ghost}
   - Q
@@ -514,53 +561,6 @@ layers:
   - {type: ghost}
   - {type: ghost}
   - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  en_gallium:
-  - {type: ghost}
-  - B
-  - L
-  - D
-  - C
-  - V
-  - J
-  - Y
-  - O
-  - U
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-  - G
-  - P
-  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: E, h: RALT}
-  - {t: I, h: '$$mdi:apple-keyboard-command$$'}
-  - {type: ghost}
-  - {type: ghost}
-  - X
-  - Q
-  - M
-  - W
-  - Z
-  - K
-  - F
-  - '['
-  - ']'
-  - {type: ghost}
-  - {t: en_gallium, h: toggle}
-  - {type: ghost}
-  - {type: ghost}
-  - $$mdi:keyboard-tab$$
-  - $$mdi:keyboard-space$$
-  - ArrowsFs
-  - SymEn
-  - NumNavEn
   - {type: ghost}
   - {type: ghost}
   - {type: ghost}
