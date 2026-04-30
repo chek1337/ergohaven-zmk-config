@@ -537,7 +537,7 @@ combos:
   a: bottom
   o: 0.5
 - p: [25, 28]
-  k: {t: '$$mdi:content-paste$$', h: '$$mdi:apple-keyboard-shift$$'}
+  k: Sft+Ctl+V
   l: [En]
   a: bottom
   o: 0.5
@@ -546,7 +546,7 @@ combos:
   l: [Ru]
   a: bottom
 - p: [25, 27]
-  k: {t: '$$mdi:content-copy$$', h: '$$mdi:apple-keyboard-shift$$'}
+  k: Sft+Ctl+C
   l: [En]
   a: bottom
 - p: [14, 38]
