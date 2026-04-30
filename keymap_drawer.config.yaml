@@ -39,18 +39,22 @@ parse_config:
     "&en COMMA":        {tap: ",", hold: en}
     "&en CARET":        {tap: "^", hold: en}
     "&en DOT":          {tap: ".", hold: en}
-    "&en LS(LC(V))":    {tap: $$mdi:content-paste$$, hold: en}
-    "&en LS(LC(C))":    {tap: $$mdi:content-copy$$, hold: en}
-    "&kp LS(LC(V))": $$mdi:content-paste$$
-    "&kp LS(LC(C))": $$mdi:content-copy$$
-    "&kp RS(ENTER)":  {tap: $$mdi:keyboard-return$$,          hold: $$mdi:apple-keyboard-shift$$}
+    # combo-only bindings: use `left`/`right` instead of `hold` so keymap-drawer
+    # natively positions the modifier glyph at the side of the combo box, instead
+    # of bottom-center (which otherwise overflows the small combo).
+    "&en LS(LC(V))":    {tap: $$mdi:content-paste$$, left: en}
+    "&en LS(LC(C))":    {tap: $$mdi:content-copy$$,  left: en}
+    "&kp LS(LC(V))":    {tap: $$mdi:content-paste$$, left: $$mdi:apple-keyboard-shift$$}
+    "&kp LS(LC(C))":    {tap: $$mdi:content-copy$$,  left: $$mdi:apple-keyboard-shift$$}
+    "&kp LA(TAB)":      {tap: $$mdi:keyboard-tab$$,   left: $$mdi:apple-keyboard-option$$}
+    "&kp LC(SPACE)":    {tap: $$mdi:keyboard-space$$, left: $$mdi:apple-keyboard-control$$}
+    "&kp LC(W)":        {tap: "W",                    left: $$mdi:apple-keyboard-control$$}
+    "&layer_en": {tap: $$mdi:translate$$, left: en}
+    "&layer_ru": {tap: $$mdi:translate$$, left: ru}
+    # standalone bindings on regular keys: keep `hold` (CSS positions it in the corner)
+    "&kp RS(ENTER)":  {tap: $$mdi:keyboard-return$$,           hold: $$mdi:apple-keyboard-shift$$}
     "&kp RC(DELETE)": {tap: $$mdi:backspace-reverse-outline$$, hold: $$mdi:apple-keyboard-control$$}
-    "&kp RC(BSPC)":   {tap: $$mdi:backspace$$,                hold: $$mdi:apple-keyboard-control$$, type: backspace}
-    "&kp LA(TAB)":    {tap: $$mdi:keyboard-tab$$,             hold: $$mdi:apple-keyboard-option$$}
-    "&kp LC(SPACE)":  {tap: $$mdi:keyboard-space$$,           hold: $$mdi:apple-keyboard-control$$}
-    "&kp LC(W)":      {tap: "W",                              hold: $$mdi:apple-keyboard-control$$}
-    "&layer_en": {tap: $$mdi:translate$$, hold: en}
-    "&layer_ru": {tap: $$mdi:translate$$, hold: ru}
+    "&kp RC(BSPC)":   {tap: $$mdi:backspace$$,                 hold: $$mdi:apple-keyboard-control$$, type: backspace}
     "&caps_word": $$mdi:caps-lock$$
     "&mkp MB1": $$mdi:mouse-left-click$$
     "&mkp MB2": $$mdi:mouse-right-click$$
@@ -209,8 +213,8 @@ draw_config:
   shrink_wide_legends: 5
 
   glyph_tap_size: 22
-  glyph_hold_size: 16
-  glyph_shifted_size: 16
+  glyph_hold_size: 12
+  glyph_shifted_size: 12
 
   svg_style: |
     svg path {
@@ -291,18 +295,32 @@ draw_config:
     .tap {
       fill: var(--color--key--text--tap);
     }
+    /* keymap-drawer needs these anchors restored — our custom svg_style
+       fully replaces the default stylesheet (see config.py:89 comment),
+       so the built-in text.left/right/tl/tr/bl/br rules are gone. */
+    text.left, text.tl, text.bl {
+        text-anchor: start;
+    }
+    text.right, text.tr, text.br {
+        text-anchor: end;
+    }
+    text.shifted, text.tl, text.tr {
+        dominant-baseline: hanging;
+    }
+    text.hold, text.bl, text.br {
+        dominant-baseline: ideographic;
+    }
+
     .shifted,
     .hold {
         font-size: 14px;
         text-anchor: middle;
     }
     .shifted {
-        dominant-baseline: hanging;
         fill: var(--color--key--text--shifted);
         translate: 22px 2px;
     }
     .hold {
-        dominant-baseline: ideographic;
         fill: var(--color--key--text--hold);
         translate: 22px 4px;
     }
@@ -363,45 +381,20 @@ draw_config:
     .combo.tap {
       font-size: 11px;
     }
+    .combo.hold,
     .combo.shifted,
-    .combo.hold {
+    .combo.left,
+    .combo.right {
       font-size: 8px;
     }
-    /* shrink tap glyph inside combos (22px → ~13px) */
+    /* shrink tap glyph inside combos (22px → ~13px). Modifier glyphs
+       (left/right) keep their native size — set via glyph_shifted_size
+       in draw_config — and keymap-drawer positions them with small_pad
+       offset from the side edge. */
     .combo.tap.glyph {
         transform: scale(0.6);
         transform-origin: center;
         transform-box: fill-box;
-    }
-    /* shrink hold/shifted glyphs inside combos (16px → ~8px), keeping center */
-    .combo.hold.glyph,
-    .combo.shifted.glyph {
-        transform: scale(0.5);
-        transform-origin: center;
-        transform-box: fill-box;
-    }
-    /* default (fallback for new combos): center-bottom / center-top */
-    .combo.shifted { translate: 0 -8px; }
-    .combo.hold    { translate: 0 8px; }
-
-    /* left-half combos: corner-left (mirror of home-row left side) */
-    .combopos-0 .hold, .combopos-1 .hold, .combopos-2 .hold,
-    .combopos-3 .hold, .combopos-4 .hold, .combopos-5 .hold,
-    .combopos-6 .hold, .combopos-7 .hold, .combopos-10 .hold {
-        translate: -8px 4px;
-    }
-    .combopos-0 .shifted, .combopos-1 .shifted, .combopos-2 .shifted,
-    .combopos-3 .shifted, .combopos-4 .shifted, .combopos-5 .shifted,
-    .combopos-6 .shifted, .combopos-7 .shifted, .combopos-10 .shifted {
-        translate: -8px -2px;
-    }
-
-    /* right-half combos: corner-right */
-    .combopos-8 .hold, .combopos-9 .hold {
-        translate: 8px 4px;
-    }
-    .combopos-8 .shifted, .combopos-9 .shifted {
-        translate: 8px -2px;
     }
 
     .trans,
