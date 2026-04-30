@@ -196,8 +196,8 @@ layers:
   - '6'
   - '5'
   - {type: ghost}
-  - Sft+$$mdi:keyboard-return$$
-  - Ctl+$$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:printer$$
   - {type: ghost}
@@ -209,7 +209,7 @@ layers:
   - '0'
   - {type: ghost}
   - $$mdi:keyboard-return$$
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
   - {type: ghost}
@@ -243,8 +243,8 @@ layers:
   - '6'
   - '5'
   - {type: ghost}
-  - Sft+$$mdi:keyboard-return$$
-  - Ctl+$$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:printer$$
   - {type: ghost}
@@ -256,7 +256,7 @@ layers:
   - '0'
   - {type: ghost}
   - $$mdi:keyboard-return$$
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
   - {type: ghost}
