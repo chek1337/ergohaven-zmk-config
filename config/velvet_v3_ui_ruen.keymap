@@ -85,49 +85,49 @@
         cmben {
             bindings = <&layer_en>;
             key-positions = <3 4>;
-            layers = <1>;
+            layers = <2>;
         };
 
         cmbru {
             bindings = <&layer_ru>;
             key-positions = <4 3>;
-            layers = <0>;
+            layers = <1>;
         };
 
         tmux_focus {
             bindings = <&kp LC(SPACE)>;
             key-positions = <39 16>;
-            layers = <1 0>;
+            layers = <2 1>;
         };
 
         ctrl_shift_v_ru {
             bindings = <&en LS(LC(V))>;
             key-positions = <28 25>;
-            layers = <1>;
+            layers = <2>;
         };
 
         ctrl_shift_v_en {
             bindings = <&kp LS(LC(V))>;
             key-positions = <25 28>;
-            layers = <0>;
+            layers = <1>;
         };
 
         ctrl_shift_c_ru {
             bindings = <&en LS(LC(C))>;
             key-positions = <25 27>;
-            layers = <1>;
+            layers = <2>;
         };
 
         ctrl_shift_c_en {
             bindings = <&kp LS(LC(C))>;
             key-positions = <25 27>;
-            layers = <0>;
+            layers = <1>;
         };
 
         alt_tab {
             bindings = <&kp LA(TAB)>;
             key-positions = <14 38>;
-            layers = <0 1>;
+            layers = <1 2>;
         };
 
         #ifndef KEYMAP_DRAWER
@@ -136,19 +136,19 @@
         capslock_one_word {
             bindings = <&caps_word>;
             key-positions = <19 21>;
-            layers = <0 1>;
+            layers = <1 2>;
         };
 
         caps {
             bindings = <&kp CAPSLOCK>;
             key-positions = <19 22>;
-            layers = <0 1>;
+            layers = <1 2>;
         };
 
         window_mode_nvim {
             bindings = <&kp LC(W)>;
             key-positions = <15 39>;
-            layers = <0 1>;
+            layers = <1 2>;
         };
     };
 
@@ -174,7 +174,7 @@
         layer_en: layer_en {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &to_en>;
+            bindings = <&to 1 &to_en>;
             label = "LAYER_EN";
             wait-ms = <0>;
             tap-ms = <30>;
@@ -183,7 +183,7 @@
         layer_ru: layer_ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &to_ru>;
+            bindings = <&to 2 &to_ru>;
             label = "LAYER_RU";
             tap-ms = <30>;
             wait-ms = <0>;
@@ -211,12 +211,21 @@
     keymap {
         compatible = "zmk,keymap";
 
+        en_gallium {
+            bindings = <
+&none  &kp B              &kp L          &kp D            &kp C           &kp V                      &kp J  &kp Y           &kp O            &kp U          &none               &none
+&none  &hmr_l LEFT_GUI N  &hmr_l LALT R  &hmr_l LSHIFT T  &hmr_l LCTRL S  &kp G                      &kp P  &hmr_r RCTRL H  &hmr_r RSHIFT A  &hmr_r RALT E  &hmr_r RIGHT_GUI I  &none
+&none  &kp X              &kp Q          &kp M            &kp W           &kp Z                      &kp K  &kp F           &kp LBKT         &kp RBKT       &none               &tog 0
+                          &none          &none            &kp TAB         &kp SPACE  &mo 7    &mo 3  &mo 5  &none           &none            &none
+            >;
+        };
+
         en {
             bindings = <
 &none  &kp Q              &kp W              &kp E                &kp R           &kp T                      &kp Y  &kp U           &kp I                 &kp O               &none               &kp F13
 &none  &hmr_l LEFT_GUI A  &hmr_l LEFT_ALT S  &hmr_l LEFT_SHIFT D  &hmr_l LCTRL F  &kp G                      &kp H  &hmr_r RCTRL J  &hmr_r RIGHT_SHIFT K  &hmr_r RIGHT_ALT L  &hmr_r RIGHT_GUI P  &none
-&none  &kp Z              &kp X              &kp C                &kp V           &kp B                      &kp N  &kp M           &kp LBKT              &kp RBKT            &none               &tog 11
-                          &none              &none                &kp TAB         &kp SPACE  &mo 6    &mo 2  &mo 4  &none           &none                 &none
+&none  &kp Z              &kp X              &kp C                &kp V           &kp B                      &kp N  &kp M           &kp LBKT              &kp RBKT            &none               &tog 0
+                          &none              &none                &kp TAB         &kp SPACE  &mo 7    &mo 3  &mo 5  &none           &none                 &none
             >;
 
             display-name = "En";
@@ -228,7 +237,7 @@
 &none  &kp RU_CYRILLIC_SHORT_I         &kp RU_CYRILLIC_TSE               &kp RU_CYRILLIC_U                 &kp RU_CYRILLIC_KA          &kp RU_CYRILLIC_IE                  &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE         &kp RU_CYRILLIC_SHA                &kp RU_CYRILLIC_SHCHA            &kp RU_CYRILLIC_ZE                &kp F13
 &none  &hmr_l LEFT_GUI RU_CYRILLIC_EF  &hmr_l LEFT_ALT RU_CYRILLIC_YERU  &hmr_l LEFT_SHIFT RU_CYRILLIC_VE  &hmr_l LCTRL RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                  &kp RU_CYRILLIC_ER  &hmr_r RCTRL RU_CYRILLIC_O  &hmr_r RIGHT_SHIFT RU_CYRILLIC_EL  &hmr_r RIGHT_ALT RU_CYRILLIC_DE  &hmr_r RIGHT_GUI RU_CYRILLIC_ZHE  &none
 &none  &kp RU_CYRILLIC_YA              &kp RU_CYRILLIC_CHE               &kp RU_CYRILLIC_ES                &kp RU_CYRILLIC_EM          &kp RU_CYRILLIC_I                   &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN   &kp RU_CYRILLIC_BE                 &kp RU_CYRILLIC_YU               &kp RU_CYRILLIC_E                 &none
-                                       &none                             &none                             &kp TAB                     &kp SPACE           &mo 6    &mo 3  &mo 5               &none                       &none                              &none
+                                       &none                             &none                             &kp TAB                     &kp SPACE           &mo 7    &mo 4  &mo 6               &none                       &none                              &none
             >;
         };
 
@@ -237,7 +246,7 @@
 &none  &kp GRAVE      &kp LESS_THAN  &kp GREATER_THAN  &kp DQT        &kp SQT                     &kp TILDE  &kp AMPERSAND  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp HASH   &none
 &none  &kp EXCL       &kp FSLH       &kp MINUS         &kp EQUAL      &kp PIPE                    &kp PRCNT  &kp UNDER      &kp LPAR        &kp RPAR         &kp QMARK  &none
 &none  &kp BACKSLASH  &kp ASTERISK   &kp PLUS          &kp AT         &kp DOLLAR                  &kp COMMA  &kp DOT        &kp LBKT        &kp RBKT         &kp CARET  &none
-                      &none          &none             &kp SEMICOLON  &kp COLON   &mo 7    &none  &none      &none          &none           &none
+                      &none          &none             &kp SEMICOLON  &kp COLON   &mo 8    &none  &none      &none          &none           &none
             >;
 
             display-name = "SymEn";
@@ -249,7 +258,7 @@
 &none  &en GRAVE         &en LESS_THAN  &en GREATER_THAN  &kp RU_DQT     &en SQT                     &en TILDE     &en AMPERSAND  &en LEFT_BRACE  &en RIGHT_BRACE  &en HASH      &none
 &none  &kp EXCL          &kp RU_FSLH    &kp MINUS         &kp EQUAL      &en PIPE                    &kp PRCNT     &kp UNDER      &kp LPAR        &kp RPAR         &kp RU_QMARK  &none
 &none  &kp RU_BACKSLASH  &kp ASTERISK   &kp PLUS          &en AT         &en DOLLAR                  &kp RU_COMMA  &kp RU_DOT     &en LBKT        &en RBKT         &en CARET     &none
-                         &none          &none             &en SEMICOLON  &en COLON   &mo 7    &none  &none         &none          &none           &none
+                         &none          &none             &en SEMICOLON  &en COLON   &mo 8    &none  &none         &none          &none           &none
             >;
         };
 
@@ -278,7 +287,7 @@
 &none  &kp F1  &kp F2   &kp F3   &kp F4   &none                  &none     &none     &none   &none      &none  &none
 &none  &kp F5  &kp F6   &kp F7   &kp F8   &none                  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none
 &none  &kp F9  &kp F10  &kp F11  &kp F12  &none                  &none     &none     &none   &none      &none  &none
-               &none    &none    &none    &none  &none    &mo 7  &none     &none     &none   &none
+               &none    &none    &none    &none  &none    &mo 8  &none     &none     &none   &none
             >;
 
             display-name = "ArrowsFs";
@@ -298,8 +307,8 @@
         mouse {
             bindings = <
 &none  &none   &none     &none     &none     &none                  &none  &none     &none     &none     &none   &none
-&none  &mo 9   &mkp MB3  &mkp MB2  &mkp MB1  &none                  &none  &mkp MB1  &mkp MB2  &mkp MB3  &mo 9   &none
-&none  &mo 10  &none     &none     &none     &none                  &none  &none     &none     &none     &mo 10  &none
+&none  &mo 10  &mkp MB3  &mkp MB2  &mkp MB1  &none                  &none  &mkp MB1  &mkp MB2  &mkp MB3  &mo 10  &none
+&none  &mo 11  &none     &none     &none     &none                  &none  &none     &none     &none     &mo 11  &none
                &none     &none     &none     &none  &none    &none  &none  &none     &none     &none
             >;
 
@@ -326,15 +335,6 @@
             >;
 
             display-name = "Sniper";
-        };
-
-        en_gallium {
-            bindings = <
-&none  &kp B              &kp L          &kp D            &kp C           &kp V                      &kp J  &kp Y           &kp O            &kp U          &none               &none
-&none  &hmr_l LEFT_GUI N  &hmr_l LALT R  &hmr_l LSHIFT T  &hmr_l LCTRL S  &kp G                      &kp P  &hmr_r RCTRL H  &hmr_r RSHIFT A  &hmr_r RALT E  &hmr_r RIGHT_GUI I  &none
-&none  &kp X              &kp Q          &kp M            &kp W           &kp Z                      &kp K  &kp F           &kp LBKT         &kp RBKT       &none               &tog 11
-                          &none          &none            &kp TAB         &kp SPACE  &mo 6    &mo 2  &mo 4  &none           &none            &none
-            >;
         };
     };
 };
