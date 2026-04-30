@@ -43,6 +43,9 @@ parse_config:
     "&en LS(LC(C))":    {tap: $$mdi:content-copy$$, hold: en}
     "&kp LS(LC(V))": $$mdi:content-paste$$
     "&kp LS(LC(C))": $$mdi:content-copy$$
+    "&kp RS(ENTER)":  {tap: $$mdi:keyboard-return$$,          hold: $$mdi:apple-keyboard-shift$$}
+    "&kp RC(DELETE)": {tap: $$mdi:backspace-reverse-outline$$, hold: $$mdi:apple-keyboard-control$$}
+    "&kp RC(BSPC)":   {tap: $$mdi:backspace$$,                hold: $$mdi:apple-keyboard-control$$, type: backspace}
     "&layer_en": {tap: $$mdi:translate$$, hold: en}
     "&layer_ru": {tap: $$mdi:translate$$, hold: ru}
     "&caps_word": $$mdi:caps-lock$$
