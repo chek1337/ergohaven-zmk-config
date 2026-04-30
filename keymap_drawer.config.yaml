@@ -361,13 +361,32 @@ draw_config:
     .combo.tap {
       font-size: 14px;
     }
-    .combo.shifted {
-      font-size: 11px;
-      translate: 0 -13px;
-    }
+    .combo.shifted,
     .combo.hold {
-      font-size: 11px;
-      translate: 0 13px;
+      font-size: 12px;
+    }
+    /* default (fallback for new combos): center-bottom / center-top */
+    .combo.shifted { translate: 0 -13px; }
+    .combo.hold    { translate: 0 13px; }
+
+    /* left-half combos: corner-left (mirror of home-row left side) */
+    .combopos-0 .hold, .combopos-1 .hold, .combopos-2 .hold,
+    .combopos-3 .hold, .combopos-4 .hold, .combopos-5 .hold,
+    .combopos-6 .hold, .combopos-7 .hold, .combopos-10 .hold {
+        translate: -11px 4px;
+    }
+    .combopos-0 .shifted, .combopos-1 .shifted, .combopos-2 .shifted,
+    .combopos-3 .shifted, .combopos-4 .shifted, .combopos-5 .shifted,
+    .combopos-6 .shifted, .combopos-7 .shifted, .combopos-10 .shifted {
+        translate: -11px -2px;
+    }
+
+    /* right-half combos: corner-right */
+    .combopos-8 .hold, .combopos-9 .hold {
+        translate: 11px 4px;
+    }
+    .combopos-8 .shifted, .combopos-9 .shifted {
+        translate: 11px -2px;
     }
 
     .trans,
