@@ -518,7 +518,7 @@ layers:
   - {type: ghost}
   - {type: ghost}
   en_gallium:
-  - {t: ▽, type: trans}
+  - {type: ghost}
   - B
   - L
   - D
@@ -528,9 +528,9 @@ layers:
   - Y
   - O
   - U
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - {t: N, h: '$$mdi:apple-keyboard-command$$'}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
@@ -541,8 +541,8 @@ layers:
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: E, h: RALT}
   - {t: I, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: ghost}
+  - {type: ghost}
   - X
   - Q
   - M
@@ -552,18 +552,18 @@ layers:
   - F
   - '['
   - ']'
-  - {t: ▽, type: trans}
+  - {type: ghost}
   - {t: En, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: ghost}
+  - {type: ghost}
+  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-space$$
+  - ArrowsFs
+  - SymEn
+  - NumNavEn
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
 combos:
 - p: [3, 4]
   k: {t: '$$mdi:translate$$', h: en}
