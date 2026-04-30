@@ -41,6 +41,8 @@ parse_config:
     "&en DOT":          {tap: ".", hold: en}
     "&en LS(LC(V))":    {tap: $$mdi:content-paste$$, hold: en}
     "&en LS(LC(C))":    {tap: $$mdi:content-copy$$, hold: en}
+    "&kp LS(LC(V))": $$mdi:content-paste$$
+    "&kp LS(LC(C))": $$mdi:content-copy$$
     "&kp RS(ENTER)":  {tap: $$mdi:keyboard-return$$,          hold: $$mdi:apple-keyboard-shift$$}
     "&kp RC(DELETE)": {tap: $$mdi:backspace-reverse-outline$$, hold: $$mdi:apple-keyboard-control$$}
     "&kp RC(BSPC)":   {tap: $$mdi:backspace$$,                hold: $$mdi:apple-keyboard-control$$, type: backspace}
