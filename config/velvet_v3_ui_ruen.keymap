@@ -215,7 +215,7 @@
             bindings = <
 &none  &kp Q              &kp W              &kp E                &kp R           &kp T                      &kp Y  &kp U           &kp I                 &kp O               &none               &kp F13
 &none  &hmr_l LEFT_GUI A  &hmr_l LEFT_ALT S  &hmr_l LEFT_SHIFT D  &hmr_l LCTRL F  &kp G                      &kp H  &hmr_r RCTRL J  &hmr_r RIGHT_SHIFT K  &hmr_r RIGHT_ALT L  &hmr_r RIGHT_GUI P  &none
-&none  &kp Z              &kp X              &kp C                &kp V           &kp B                      &kp N  &kp M           &kp LBKT              &kp RBKT            &none               &none
+&none  &kp Z              &kp X              &kp C                &kp V           &kp B                      &kp N  &kp M           &kp LBKT              &kp RBKT            &none               &to 11
                           &none              &none                &kp TAB         &kp SPACE  &mo 6    &mo 2  &mo 4  &none           &none                 &none
             >;
 
@@ -326,6 +326,15 @@
             >;
 
             display-name = "Sniper";
+        };
+
+        en_gallium {
+            bindings = <
+&trans  &kp B              &kp L          &kp D            &kp C           &kp V                     &kp J   &kp Y           &kp O            &kp U          &trans              &trans
+&trans  &hmr_l LEFT_GUI N  &hmr_l LALT R  &hmr_l LSHIFT T  &hmr_l LCTRL S  &kp G                     &kp P   &hmr_r RCTRL H  &hmr_r RSHIFT A  &hmr_r RALT E  &hmr_r RIGHT_GUI I  &trans
+&trans  &kp X              &kp Q          &kp M            &kp W           &kp Z                     &kp K   &kp F           &kp LBKT         &kp RBKT       &trans              &to 0
+                           &trans         &trans           &trans          &trans  &trans    &trans  &trans  &trans          &trans           &trans
+            >;
         };
     };
 };
