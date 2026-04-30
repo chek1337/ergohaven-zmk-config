@@ -49,14 +49,14 @@
 | `draw_key_sides: false` | Не рисовать «бортики» клавиш (плоский стиль). |
 | `key_h: 64` | Высота клавиши в px. **Если меняется — пересчитать `translate` значения в `svg_style` (сейчас `22px / 2px / 4px` под `key_h: 64`)**. |
 | `key_rx`/`key_ry: 4` | Радиус скругления клавиш. |
-| `combo_w`/`combo_h: 30` | Размер combo-боксов. Сделай больше если combo-метка не помещается. |
+| `combo_w`/`combo_h: 32` | Размер combo-боксов. Сделай больше если combo-метка не помещается. Если меняется — пересчитать translate'ы в `.combopos-N .hold/.shifted` и fallback `.combo.hold/.shifted` (см. ниже). |
 | `inner_pad_w/h: 2` | Промежуток между клавишами. |
 | `outer_pad_w: 0` | Горизонтальные внешние отступы выключены (SVG плотно к клавишам по бокам). |
 | `outer_pad_h: 40` | Вертикальный отступ сверху/между слоями. **Должен быть ≥ font-size label'а слоя** (сейчас 32px) — иначе `text.label` обрезается viewBox'ом сверху первого слоя или налезает на клавиши следующего. |
 | `small_pad: 4` | Отступ от края клавиши до вторичных меток (пока не используется напрямую — translate'ы перекрывают). |
 | `shrink_wide_legends: 5` | Если tap-лейбл длиннее 5 символов — шрифт уменьшится. |
 | `glyph_tap_size: 22` | Размер mdi-иконки на месте tap-метки. |
-| `glyph_hold_size: 16` / `glyph_shifted_size: 16` | Размеры иконок на hold/shifted позициях. |
+| `glyph_hold_size: 16` / `glyph_shifted_size: 16` | Размеры иконок на hold/shifted позициях (для **обычных** клавиш). Для combo иконки уменьшаются до ~12px через CSS `transform: scale(0.75)` с `transform-box: fill-box; transform-origin: center` — это масштабирует `<use>` относительно его центра, не сдвигая позицию (просто `width`/`height` через CSS сместил бы иконку, потому что `x`/`y` атрибуты считаются keymap-drawer'ом под исходный размер 16). |
 | `append_colon_to_layer_header: false` | Имена слоёв без двоеточия. |
 | `svg_style: \|` | Большой блок CSS. Структура ниже. |
 
@@ -86,8 +86,11 @@
 14. **`.combo`** — переопределяет переменные внутри combo-боксов (используют combo-палитру вместо key-палитры).
 15. **`rect.combo { opacity: 0.8 }`** — combo-боксы полупрозрачные.
 16. **`path.combo`** — стиль дендронов (линий от combo к ключам): тонкая `stroke-width: 1`, `opacity: 0.5`, цвет берётся из `--color--combo--dendron` (сейчас `blue-gray-400` = `#656d76`, иначе на светлом фоне будет невидно).
-17. **`.combo.tap/shifted/hold`** — размеры шрифта внутри combo-бокса.
-18. **`.trans, .none, .ghost { opacity: 0.4 }`** — приглушённые transparent/none/ghost клавиши.
+17. **`.combo.tap/shifted/hold`** — размеры шрифта внутри combo-бокса (tap 14px, shifted/hold 11px).
+18. **`.combo.hold.glyph, .combo.shifted.glyph { transform: scale(0.75); transform-box: fill-box; transform-origin: center }`** — **уменьшает hold/shifted-иконки в combo до ~12px**, не трогая иконки на обычных клавишах (там 16px из `glyph_hold_size`). `fill-box` обязателен — без него origin считается от ближайшего viewport SVG, и scale смещает иконку. Текст `en`/`ru` (не `.glyph`) этим правилом не задет.
+19. **Дефолтные translate'ы для combo (fallback)**: `.combo.shifted { translate: 0 -10px }` и `.combo.hold { translate: 0 10px }` — центр-низ / центр-верх. Используется для combo, не приписанного к стороне явно.
+20. **`.combopos-N .hold/.shifted { translate: ±9px ... }`** — зеркалирование hold/shifted в углы combo по аналогии с `.keypos-N` для клавиш. **`combopos-N` — порядковый индекс combo в `.keymap` с нуля, не имя.** Левая половина: 0–7, 10 (`-9px`). Правая: 8, 9 (`+9px`). При добавлении нового combo — обновить эти селекторы. Translate'ы (±9px / 4px / -2px) подобраны под `combo_w/h: 32` с уменьшенной иконкой 12px — при изменении бокса пересчитать.
+21. **`.trans, .none, .ghost { opacity: 0.4 }`** — приглушённые transparent/none/ghost клавиши.
 
 ## Точечные правки — куда лезть
 
