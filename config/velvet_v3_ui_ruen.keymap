@@ -275,10 +275,10 @@
 
         nav {
             bindings = <
-&none  &kp F1  &kp F2   &kp F3   &kp F4   &none                  &none     &none     &none   &none      &none  &none
-&none  &kp F5  &kp F6   &kp F7   &kp F8   &none                  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none
-&none  &kp F9  &kp F10  &kp F11  &kp F12  &none                  &none     &none     &none   &none      &none  &none
-               &none    &none    &none    &none  &none    &mo 7  &none     &none     &none   &none
+&none  &kp F1  &kp F2   &kp F3   &kp F4   &none                  &kp RS(RC(LEFT))  &kp RC(RS(DOWN))  &kp RC(RS(UP))  &kp RC(RS(RIGHT))  &none  &none
+&none  &kp F5  &kp F6   &kp F7   &kp F8   &none                  &kp LEFT          &kp DOWN          &kp UP          &kp RIGHT          &none  &none
+&none  &kp F9  &kp F10  &kp F11  &kp F12  &none                  &kp RC(LEFT)      &kp RC(DOWN)      &kp RC(UP)      &kp RC(RIGHT)      &none  &none
+               &none    &none    &none    &none  &none    &mo 7  &none             &none             &none           &none
             >;
 
             display-name = "ArrowsFs";
