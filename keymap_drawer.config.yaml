@@ -46,6 +46,14 @@ parse_config:
     "&kp RS(ENTER)":  {tap: $$mdi:keyboard-return$$,          hold: $$mdi:apple-keyboard-shift$$}
     "&kp RC(DELETE)": {tap: $$mdi:backspace-reverse-outline$$, hold: $$mdi:apple-keyboard-control$$}
     "&kp RC(BSPC)":   {tap: $$mdi:backspace$$,                hold: $$mdi:apple-keyboard-control$$, type: backspace}
+    "&kp RC(LEFT)":      {tap: $$mdi:arrow-left-bold$$,  hold: $$mdi:apple-keyboard-control$$}
+    "&kp RC(DOWN)":      {tap: $$mdi:arrow-down-bold$$,  hold: $$mdi:apple-keyboard-control$$}
+    "&kp RC(UP)":        {tap: $$mdi:arrow-up-bold$$,    hold: $$mdi:apple-keyboard-control$$}
+    "&kp RC(RIGHT)":     {tap: $$mdi:arrow-right-bold$$, hold: $$mdi:apple-keyboard-control$$}
+    "&kp RS(RC(LEFT))":  {tap: $$mdi:arrow-left-bold$$,  hold: $$mdi:apple-keyboard-control$$, shifted: $$mdi:apple-keyboard-shift$$}
+    "&kp RC(RS(DOWN))":  {tap: $$mdi:arrow-down-bold$$,  hold: $$mdi:apple-keyboard-control$$, shifted: $$mdi:apple-keyboard-shift$$}
+    "&kp RC(RS(UP))":    {tap: $$mdi:arrow-up-bold$$,    hold: $$mdi:apple-keyboard-control$$, shifted: $$mdi:apple-keyboard-shift$$}
+    "&kp RC(RS(RIGHT))": {tap: $$mdi:arrow-right-bold$$, hold: $$mdi:apple-keyboard-control$$, shifted: $$mdi:apple-keyboard-shift$$}
     "&layer_en": {tap: $$mdi:translate$$, hold: en}
     "&layer_ru": {tap: $$mdi:translate$$, hold: ru}
     "&caps_word": $$mdi:caps-lock$$
