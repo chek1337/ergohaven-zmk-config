@@ -150,6 +150,12 @@
             key-positions = <15 39>;
             layers = <0 1>;
         };
+
+        esc_combo {
+            bindings = <&kp ESC>;
+            key-positions = <13 14>;
+            layers = <0 1>;
+        };
     };
 
     macros {
