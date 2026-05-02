@@ -289,10 +289,10 @@ layers:
   - F3
   - F4
   - {type: ghost}
-  - Sft+Ctl+$$mdi:arrow-left-bold$$
-  - Ctl+Sft+$$mdi:arrow-down-bold$$
-  - Ctl+Sft+$$mdi:arrow-up-bold$$
-  - Ctl+Sft+$$mdi:arrow-right-bold$$
+  - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:apple-keyboard-control$$', s: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:apple-keyboard-control$$', s: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:apple-keyboard-control$$', s: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:apple-keyboard-control$$', s: '$$mdi:apple-keyboard-shift$$'}
   - {type: ghost}
   - {type: ghost}
   - {type: ghost}
@@ -313,10 +313,10 @@ layers:
   - F11
   - F12
   - {type: ghost}
-  - Ctl+$$mdi:arrow-left-bold$$
-  - Ctl+$$mdi:arrow-down-bold$$
-  - Ctl+$$mdi:arrow-up-bold$$
-  - Ctl+$$mdi:arrow-right-bold$$
+  - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:apple-keyboard-control$$'}
   - {type: ghost}
   - {type: ghost}
   - {type: ghost}
