@@ -564,9 +564,3 @@ combos:
 - p: [15, 39]
   k: Ctl+W
   l: [En, Ru]
-- p: [13, 14]
-  k: $$mdi:keyboard-esc$$
-  l: [En, Ru]
-- p: [21, 22]
-  k: $$mdi:keyboard-esc$$
-  l: [En, Ru]

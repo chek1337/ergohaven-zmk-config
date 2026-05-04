@@ -510,14 +510,6 @@ path.combo {
 <rect rx="4" ry="4" x="284" y="182" width="30" height="30" class="combo"/>
 <text x="299" y="197" class="combo tap">Ctl+W</text>
 </g>
-<g class="combo combopos-8">
-<rect rx="4" ry="4" x="113" y="97" width="30" height="30" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="117" y="101" height="22" width="22.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-9">
-<rect rx="4" ry="4" x="817" y="97" width="30" height="30" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="821" y="101" height="22" width="22.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
 </g>
 </g>
 <g transform="translate(0, 438)" class="layer-Ru">
@@ -758,14 +750,6 @@ path.combo {
 <path d="M299,197 l62,83" class="combo"/>
 <rect rx="4" ry="4" x="284" y="182" width="30" height="30" class="combo"/>
 <text x="299" y="197" class="combo tap">Ctl+W</text>
-</g>
-<g class="combo combopos-8">
-<rect rx="4" ry="4" x="113" y="97" width="30" height="30" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="117" y="101" height="22" width="22.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-9">
-<rect rx="4" ry="4" x="817" y="97" width="30" height="30" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="821" y="101" height="22" width="22.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 </g>
 </g>
