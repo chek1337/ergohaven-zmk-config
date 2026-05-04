@@ -258,7 +258,7 @@ layers:
   - $$mdi:keyboard-return$$
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-esc$$
+  - Х
   - {type: ghost}
   - {type: ghost}
   - $$mdi:transfer-down$$
@@ -270,7 +270,7 @@ layers:
   - {t: ., h: en}
   - Х
   - Ъ
-  - {type: ghost}
+  - Ъ
   - {type: ghost}
   - {type: ghost}
   - {type: ghost}
@@ -565,5 +565,8 @@ combos:
   k: Ctl+W
   l: [En, Ru]
 - p: [13, 14]
+  k: $$mdi:keyboard-esc$$
+  l: [En, Ru]
+- p: [21, 22]
   k: $$mdi:keyboard-esc$$
   l: [En, Ru]
