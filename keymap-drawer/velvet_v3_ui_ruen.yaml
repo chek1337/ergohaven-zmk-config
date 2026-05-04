@@ -211,7 +211,7 @@ layers:
   - $$mdi:keyboard-return$$
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-esc$$
+  - {type: ghost}
   - {type: ghost}
   - {type: ghost}
   - $$mdi:transfer-down$$
@@ -221,8 +221,8 @@ layers:
   - {type: ghost}
   - ','
   - .
-  - '['
-  - ']'
+  - {type: ghost}
+  - {type: ghost}
   - {type: ghost}
   - {type: ghost}
   - {type: ghost}
@@ -268,8 +268,8 @@ layers:
   - {type: ghost}
   - {t: ',', h: en}
   - {t: ., h: en}
-  - Х
-  - Ъ
+  - {type: ghost}
+  - {type: ghost}
   - Ъ
   - {type: ghost}
   - {type: ghost}
