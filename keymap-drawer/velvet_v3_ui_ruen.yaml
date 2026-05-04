@@ -195,7 +195,7 @@ layers:
   - '7'
   - '6'
   - '5'
-  - {type: ghost}
+  - $$mdi:printer$$
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:backspace-reverse-outline$$
@@ -242,7 +242,7 @@ layers:
   - '7'
   - '6'
   - '5'
-  - {type: ghost}
+  - $$mdi:printer$$
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:backspace-reverse-outline$$
