@@ -199,7 +199,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:keyboard-esc$$
+  - {type: ghost}
   - {type: ghost}
   - {type: ghost}
   - '4'
@@ -218,7 +218,7 @@ layers:
   - $$mdi:transfer-up$$
   - $$mdi:arrow-collapse-left$$
   - $$mdi:arrow-collapse-right$$
-  - $$mdi:printer$$
+  - $$mdi:keyboard-esc$$
   - ','
   - .
   - {type: ghost}
@@ -246,7 +246,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:keyboard-esc$$
+  - {type: ghost}
   - {type: ghost}
   - {type: ghost}
   - '4'
@@ -265,7 +265,7 @@ layers:
   - $$mdi:transfer-up$$
   - $$mdi:arrow-collapse-left$$
   - $$mdi:arrow-collapse-right$$
-  - $$mdi:printer$$
+  - $$mdi:keyboard-esc$$
   - {t: ',', h: en}
   - {t: ., h: en}
   - {type: ghost}
@@ -300,7 +300,7 @@ layers:
   - F6
   - F7
   - F8
-  - {type: ghost}
+  - $$mdi:keyboard-return$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -312,7 +312,7 @@ layers:
   - F10
   - F11
   - F12
-  - {type: ghost}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:apple-keyboard-control$$'}
