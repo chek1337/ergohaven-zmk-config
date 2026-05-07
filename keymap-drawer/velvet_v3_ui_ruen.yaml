@@ -195,11 +195,11 @@ layers:
   - '7'
   - '6'
   - '5'
-  - $$mdi:printer$$
+  - $$mdi:mouse-right-click$$
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:backspace-reverse-outline$$
-  - {type: ghost}
+  - $$mdi:printer$$
   - {type: ghost}
   - {type: ghost}
   - '4'
@@ -207,11 +207,11 @@ layers:
   - '2'
   - '1'
   - '0'
-  - {type: ghost}
+  - $$mdi:mouse-left-click$$
   - $$mdi:keyboard-return$$
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {type: ghost}
+  - $$mdi:keyboard-esc$$
   - {type: ghost}
   - {type: ghost}
   - $$mdi:transfer-down$$
@@ -221,8 +221,8 @@ layers:
   - $$mdi:keyboard-esc$$
   - ','
   - .
-  - {type: ghost}
-  - {type: ghost}
+  - '['
+  - ']'
   - {type: ghost}
   - {type: ghost}
   - {type: ghost}
@@ -242,11 +242,11 @@ layers:
   - '7'
   - '6'
   - '5'
-  - $$mdi:printer$$
+  - $$mdi:mouse-right-click$$
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:backspace-reverse-outline$$
-  - {type: ghost}
+  - $$mdi:printer$$
   - {type: ghost}
   - {type: ghost}
   - '4'
@@ -254,11 +254,11 @@ layers:
   - '2'
   - '1'
   - '0'
-  - {type: ghost}
+  - $$mdi:mouse-left-click$$
   - $$mdi:keyboard-return$$
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - Х
+  - $$mdi:keyboard-esc$$
   - {type: ghost}
   - {type: ghost}
   - $$mdi:transfer-down$$
@@ -268,9 +268,9 @@ layers:
   - $$mdi:keyboard-esc$$
   - {t: ',', h: en}
   - {t: ., h: en}
-  - {type: ghost}
-  - {type: ghost}
+  - Х
   - Ъ
+  - {type: ghost}
   - {type: ghost}
   - {type: ghost}
   - {type: ghost}
