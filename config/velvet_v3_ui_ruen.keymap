@@ -256,20 +256,20 @@
         additional_nav_en {
             display-name = "NumNavEn";
             bindings = <
-&none  &kp NUMBER_9   &kp NUMBER_8  &kp NUMBER_7  &kp NUMBER_6  &kp N5                           &mkp MB2   &kp RS(ENTER)  &kp RC(DELETE)  &kp DELETE  &kp PRINTSCREEN  &none
-&none  &kp NUMBER_4   &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0                     &mkp MB1   &kp ENTER      &kp RC(BSPC)    &kp BSPC    &kp ESC          &none
-&none  &kp PAGE_DOWN  &kp PG_UP     &kp HOME      &kp END       &kp ESCAPE                       &kp COMMA  &kp DOT        &kp LBKT        &kp RBKT    &none            &none
-                      &none         &none         &none         &skq LEFT_SHIFT  &none    &none  &none      &none          &none           &none
+&none  &kp N6         &kp N7     &kp N8    &kp N9   &kp N0                           &mkp MB2   &kp RS(ENTER)  &kp RC(DELETE)  &kp DELETE  &kp PRINTSCREEN  &none
+&none  &kp N1         &kp N2     &kp N3    &kp N4   &kp N5                           &mkp MB1   &kp ENTER      &kp RC(BSPC)    &kp BSPC    &kp ESC          &none
+&none  &kp PAGE_DOWN  &kp PG_UP  &kp HOME  &kp END  &kp ESCAPE                       &kp COMMA  &kp DOT        &kp LBKT        &kp RBKT    &none            &none
+                      &none      &none     &none    &skq LEFT_SHIFT  &none    &none  &none      &none          &none           &none
             >;
         };
 
         additional_nav_ru {
             display-name = "NumNavRu";
             bindings = <
-&none  &kp NUMBER_9   &kp NUMBER_8  &kp NUMBER_7  &kp NUMBER_6  &kp N5                           &mkp MB2   &kp RS(ENTER)  &kp RC(DELETE)      &kp DELETE                 &kp PRINTSCREEN  &none
-&none  &kp NUMBER_4   &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0                     &mkp MB1   &kp ENTER      &kp RC(BSPC)        &kp BSPC                   &kp ESC          &none
-&none  &kp PAGE_DOWN  &kp PG_UP     &kp HOME      &kp END       &kp ESCAPE                       &en COMMA  &en DOT        &kp RU_CYRILLIC_HA  &kp RU_CYRILLIC_HARD_SIGN  &none            &none
-                      &none         &none         &none         &skq LEFT_SHIFT  &none    &none  &none      &none          &none               &none
+&none  &kp N6         &kp N7     &kp N8    &kp N9   &kp N0                           &mkp MB2   &kp RS(ENTER)  &kp RC(DELETE)      &kp DELETE                 &kp PRINTSCREEN  &none
+&none  &kp N1         &kp N2     &kp N3    &kp N4   &kp N5                           &mkp MB1   &kp ENTER      &kp RC(BSPC)        &kp BSPC                   &kp ESC          &none
+&none  &kp PAGE_DOWN  &kp PG_UP  &kp HOME  &kp END  &kp ESCAPE                       &en COMMA  &en DOT        &kp RU_CYRILLIC_HA  &kp RU_CYRILLIC_HARD_SIGN  &none            &none
+                      &none      &none     &none    &skq LEFT_SHIFT  &none    &none  &none      &none          &none               &none
             >;
         };
 
